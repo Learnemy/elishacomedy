@@ -1,0 +1,138 @@
+---
+# Don't remove this section
+# This Frontmatter section enables Liquid syntax below
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Elisha Tan - Singaporean Comedy in the Bay</title>
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="stylesheet" href="assets/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <nav class="nav-links">
+      <a href="#bio">bio</a>
+      <a href="#shows">shows</a>
+      <a href="#videos">videos</a>
+    </nav>
+    <div class="masthead">
+      <h1 class="name">Elisha Tan</h1>
+      <img class="nice-photo" alt="" src="assets/elisha-tan@2x.png" />
+    </div>
+    <div class="cta-bar">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform"
+        class="cta-button"
+      >
+        Sign up for <span class="ib">my mailing list</span>
+      </a>
+    </div>
+    <div class="content">
+      <h2 id="bio" class="tagline">
+        <span class="flag-bg">Singaporean</span>
+        <span class="ib">Comedy in the Bay</span>
+      </h2>
+      <div class="intro">
+        <p>
+          <b>Elisha "The Bay-Laugh Bound" Tan</b> , a Singaporean stand-up
+          sensation in the San Francisco Bay Area. Raised in Singapore, her
+          quick wit and cultural insights have won hearts. Elisha's comedy
+          bridges her Singaporean heritage with Bay Area quirks, making her a
+          local favorite. From tech humor to her international transplant tales,
+          Elisha's comedy offers a delightful mix of charm and absurdity. Don't
+          miss her at Bay Area comedy venues, where she unites audiences through
+          laughter, proving humor knows no boundaries.
+        </p>
+      </div>
+      <div class="socials">
+        <a href="mailto:elisha.tan@gmail.com">
+          <img alt="E-mail" src="assets/mail.svg" />
+        </a>
+        <a href="https://instagram.com/elishatan">
+          <img alt="Instagram" src="assets/instagram.svg" />
+        </a>
+        <a href="https://www.youtube.com/@ElishaTan">
+          <img alt="Youtube" src="assets/youtube.svg" />
+        </a>
+      </div>
+      <h2 id="shows">Shows</h2>
+      <div class="shows-list">
+        {% for show in site.data.shows %}
+        <div class="show">
+          <p>
+            <b>{{ show.city }}</b><br />
+            {{ show.datetime }}<br />
+            {{ show.place }}
+          </p>
+          <a href="{{ show.link }}" class="ticket-button">
+            <b class="tickets">Tickets</b>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <h2>Book me</h2>
+      <div class="book-form">
+        <p>Book me for a show!</p>
+        <p>
+          <b><a href="mailto:elisha.tan@gmail.com">elisha.tan@gmail.com</a></b>
+        </p>
+        <iframe
+          class="iframe-form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform?embedded=true"
+          width="640"
+          height="800"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <h2 id="videos">Videos</h2>
+    </div>
+    <div class="videos">
+      {% for reel in site.data.reels %}
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="{{ reel }}"
+        data-instgrm-version="14"
+      ></blockquote>
+      {% endfor %}
+      <a href="https://www.instagram.com/elishatan" class="videos-more">More</a>
+    </div>
+    <div class="cta-bar">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform"
+        class="cta-button"
+      >
+        Sign up for <span class="ib">my mailing list</span>
+      </a>
+    </div>
+    <div class="content">
+      <div class="socials">
+        <a href="mailto:elisha.tan@gmail.com">
+          <img alt="E-mail" src="assets/mail.svg" />
+        </a>
+        <a href="https://instagram.com/elishatan">
+          <img alt="Instagram" src="assets/instagram.svg" />
+        </a>
+        <a href="https://www.youtube.com/@ElishaTan">
+          <img alt="Youtube" src="assets/youtube.svg" />
+        </a>
+      </div>
+    </div>
+    <script
+      async
+      defer
+      fetchpriority="low"
+      src="https://www.instagram.com/embed.js"
+    ></script>
+  </body>
+</html>

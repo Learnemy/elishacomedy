@@ -1,0 +1,5 @@
+livereload: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
