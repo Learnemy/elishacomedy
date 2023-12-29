@@ -23,9 +23,9 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  background: var(--color-primary) url(./elisha-batik-bg.jpg) repeat-y center
+  /* background: var(--color-primary) url(./elisha-batik-bg.jpg) repeat-y center
     10vh;
-  background-size: auto 75vh;
+  background-size: auto 75vh; */
 }
 
 a {
@@ -96,6 +96,8 @@ h2 {
 }
 .masthead {
   text-align: center;
+  background: url(./elisha-batik-bg.jpg) no-repeat center top;
+  background-size: auto 100%;
 }
 .cta-bar {
   align-self: stretch;
