@@ -1,6 +1,6 @@
 :root {
   --font-family: Manrope, sans-serif;
-  --font-size-base: 16px;
+  --font-size-base: 18px;
   --color-white: #fff;
   --color-primary: #412a72;
   --color-primary-lighter: #a54ece;
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-size: 20px;
+  font-size: var(--font-size-base);
   color: var(--color-white);
   background-color: var(--color-primary);
   font-family: var(--font-family);
@@ -148,7 +148,6 @@ h2 {
   -webkit-background-clip: text;
 }
 .intro {
-  font-size: var(--font-size-base);
   line-height: 175%;
   max-width: 480px;
   text-align: center;
@@ -192,7 +191,6 @@ h2 {
   box-sizing: border-box;
   max-width: 480px;
   text-align: left;
-  font-size: var(--font-size-base);
 }
 .show {
   align-self: stretch;
