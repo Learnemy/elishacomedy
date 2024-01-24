@@ -5,7 +5,7 @@ Elisha Tan's comedy homepage.
 ## Dev
 
 - Requires [Jekyll](https://jekyllrb.com/). Follow the [Quickstart](https://jekyllrb.com/docs/) guide and install **everything**.
-- Run `bundle exec jekyll serve` to start the development server.
+- Run `bundle exec jekyll serve` or `./serve.sh` to start the development server.
 
 ## Data
 
