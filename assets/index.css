@@ -97,7 +97,7 @@ h2 {
 .masthead {
   text-align: center;
   background: url(./elisha-batik-bg.jpg) no-repeat center top;
-  background-size: auto 100%;
+  background-size: cover;
 }
 .cta-bar {
   align-self: stretch;
