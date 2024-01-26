@@ -6,6 +6,7 @@ Elisha Tan's comedy homepage.
 
 - Requires [Jekyll](https://jekyllrb.com/). Follow the [Quickstart](https://jekyllrb.com/docs/) guide and install **everything**.
 - Run `bundle exec jekyll serve` or `./serve.sh` to start the development server.
+- http://127.0.0.1:4000/ on browser
 
 ## Data
 
