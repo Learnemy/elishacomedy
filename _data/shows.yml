@@ -1,7 +1,7 @@
-- city: San Jose
-  place: Goodtime Bar
-  datetime: 6 Feb 8pm
-  link: https://www.eventbrite.com/e/goodtime-comedy-goodtime-bar-tickets-809278572997?aff=ebdsshios
+- city: San Francisco
+  place: Mayes Oyster Bar
+  datetime: 8 Feb 8pm
+  link: https://www.eventbrite.com/e/sfs-free-polk-street-comedy-blast-2024-tickets-383207432747?aff=ebdsoporgprofile&_gl=1*ettthn*_up*MQ..&gclid=CjwKCAiA8YyuBhBSEiwA5R3-E58qd-tJqk5m4V3rUHESpJ_xtkTBCiVc7x_km6-jO1yp7ZexcVsceRoCMjIQAvD_BwE
 
 - city: San Francisco
   place: Villa Fontaine
@@ -43,4 +43,7 @@
   datetime: 3 Mar 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-742501922237
 
-
+- city: Minneapolis
+  place: Loons on the Lake Comedy Festival, Crooners Supper Club
+  datetime: 7 Jun 7pm
+  link: https://www.loonsonthelake.com/event-details-registration/headliner-quinn-dahle
