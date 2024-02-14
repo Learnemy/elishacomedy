@@ -1,9 +1,4 @@
 - city: San Francisco
-  place: Villa Fontaine
-  datetime: 13 Feb 7pm
-  link: https://www.eventbrite.com/e/block-party-at-the-villa-tickets-809694527127?utm_experiment=test_share_listing&aff=ebdsshios
-
-- city: San Francisco
   place: Neck of the Woods
   datetime: 17 Feb 7pm
   link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-tickets-786771824707
@@ -12,11 +7,6 @@
   place: Mayes Oyster Bar 
   datetime: 18 Feb 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197483757
-
-- city: San Francisco
-  place: Chambers Eat + Drink <- I'm producing this show!
-  datetime: 22 Feb 8pm 
-  link: https://www.eventbrite.com/e/tiger-children-comedy-tickets-828115454617?aff=elisha
 
 - city: San Francisco
   place: Speakeasy Ales & Lagers 
