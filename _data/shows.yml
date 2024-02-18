@@ -1,9 +1,4 @@
 - city: San Francisco
-  place: Neck of the Woods
-  datetime: 17 Feb 7pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-tickets-786771824707
-
-- city: San Francisco
   place: Mayes Oyster Bar 
   datetime: 18 Feb 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197483757
@@ -32,6 +27,16 @@
   place: Mayes Oyster Bar 
   datetime: 3 Mar 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-742501922237
+
+- city: Sunnyvale
+  place: Rooster T 
+  datetime: 20 Mar 8pm
+  link: https://rooster-t-feathers.seatengine-sites.com/shows/252621
+
+- city: Berkeley
+  place: Gilman Brewing Company
+  datetime: 12 Apr 7:30pm
+  link: https://www.eventbrite.com/e/yeah-whatever-stand-up-comedy-at-gilman-brewing-tickets-769991434107?aff=oddtdtcreator
 
 - city: Minneapolis
   place: Loons on the Lake Comedy Festival, Crooners Supper Club
