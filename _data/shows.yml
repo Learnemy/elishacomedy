@@ -1,29 +1,4 @@
 - city: San Francisco
-  place: Speakeasy Ales & Lagers 
-  datetime: 23 Feb 7pm / 9pm 
-  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676021237?discount=FUNCHEAPGUEST
-
-- city: San Francisco
-  place: Cobb's Comedy Club
-  datetime: 23 Feb 10pm
-  link: https://www.cobbscomedy.com//EventDetail?tmeventid=G5vYZb79nLdER&offerid=0
-
-- city: San Francisco
-  place: Neck of the Woods
-  datetime: 24 Feb 7pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-tickets-786771834737
-
-- city: San Francisco
-  place: Milk Bar
-  datetime: 25 Feb 7pm
-  link: https://www.eventbrite.com/e/stand-up-comedy-bay-area-a-stand-up-comedy-show-tickets-805793057727?aff=ebdsoporgprofile
-
-- city: San Francisco
-  place: The Faight Collective
-  datetime: 29 Feb 7pm
-  link: https://www.eventbrite.com/e/leap-year-comedy-show-the-queens-of-chaos-all-female-comedy-show-tickets-783168075797
-
-- city: San Francisco
   place: Mayes Oyster Bar 
   datetime: 3 Mar 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-742501922237
@@ -38,10 +13,20 @@
   datetime: 15 Mar 8pm
   link: https://www.universe.com/events/the-sf-stoner-comedy-jam-friday-nights-at-8p-tickets-8P0JBR
 
+- city: San Francisco
+  place: Neck of the Woods
+  datetime: 16 Mar 7pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-sf-tickets-786771864827
+
 - city: Sunnyvale
   place: Rooster T 
   datetime: 20 Mar 8pm
   link: https://rooster-t-feathers.seatengine-sites.com/shows/252621
+
+- city: San Francisco
+  place: Speakeasy Ales & Lagers 
+  datetime: 22 Mar 7pm / 9pm
+  link: hhttps://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676061357
 
 - city: Berkeley
   place: Gilman Brewing Company
