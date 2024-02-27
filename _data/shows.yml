@@ -1,4 +1,9 @@
 - city: San Francisco
+  place: Mayes Oyster Bar (Host)
+  datetime: 29 Feb 8pm
+  link: https://www.eventbrite.com/e/sfs-free-polk-street-comedy-blast-2024-tickets-788292763877?aff=FCWebsite&discount=FUNCHEAP
+
+- city: San Francisco
   place: Mayes Oyster Bar 
   datetime: 3 Mar 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-742501922237
@@ -27,6 +32,11 @@
   place: Speakeasy Ales & Lagers 
   datetime: 22 Mar 7pm / 9pm
   link: hhttps://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676061357
+
+- city: San Francisco
+  place: Skylark 
+  datetime: 27 Mar 7pm
+  link: https://www.eventbrite.com/o/skylark-69258891143
 
 - city: Berkeley
   place: Gilman Brewing Company
