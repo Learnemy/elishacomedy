@@ -1,12 +1,7 @@
-- city: San Francisco
-  place: Mayes Oyster Bar (Host)
-  datetime: 29 Feb 8pm
-  link: https://www.eventbrite.com/e/sfs-free-polk-street-comedy-blast-2024-tickets-788292763877?aff=FCWebsite&discount=FUNCHEAP
-
-- city: San Francisco
-  place: Mayes Oyster Bar 
-  datetime: 3 Mar 8pm
-  link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-742501922237
+- city: Oakland
+  place: Blunts And Moore
+  datetime: 9 Mar 6pm
+  link: 
 
 - city: San Francisco
   place: Cobb's Comedy Club
@@ -42,6 +37,16 @@
   place: Gilman Brewing Company
   datetime: 12 Apr 7:30pm
   link: https://www.eventbrite.com/e/yeah-whatever-stand-up-comedy-at-gilman-brewing-tickets-769991434107?aff=oddtdtcreator
+
+- city: San Francisco
+  place: Mayes Oyster Bar 
+  datetime: 14 Apr 8pm
+  link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197563997
+
+- city: San Francisco
+  place: Mayes Oyster Bar 
+  datetime: 21 Apr 8pm
+  link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197574027
 
 - city: Minneapolis
   place: Loons on the Lake Comedy Festival, Crooners Supper Club
