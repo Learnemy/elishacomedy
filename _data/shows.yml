@@ -1,12 +1,7 @@
 - city: San Francisco
-  place: Skylark 
-  datetime: 3 Apr 7pm
-  link: https://www.eventbrite.com/o/skylark-69258891143
-
-- city: San Francisco
-  place: Moe Greens 
-  datetime: 5 Apr 8pm
-  link: https://www.universe.com/events/the-sf-stoner-comedy-jam-friday-nights-at-8p-tickets-8P0JBR
+  place: Cobb's Comedy Club 
+  datetime: 10 Apr 7:30pm
+  link: https://www.cobbscomedy.com//EventDetail?tmeventid=G5vYZb7SVbzR_&offerid=0
 
 - city: Berkeley
   place: Gilman Brewing Company
@@ -14,9 +9,9 @@
   link: https://www.eventbrite.com/e/yeah-whatever-stand-up-comedy-at-gilman-brewing-tickets-769991434107?aff=oddtdtcreator
 
 - city: San Francisco
-  place: Mayes Oyster Bar 
+  place: The Lost Church
   datetime: 14 Apr 8pm
-  link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197563997
+  link: https://www.universe.com/events/new-venue-jonathan-lyte-whos-that-a-regular-guy-at-the-lost-church-tickets-91GX8S
 
 - city: San Francisco
   place: Skylark 
@@ -28,7 +23,26 @@
   datetime: 21 Apr 8pm
   link: https://www.eventbrite.com/e/sfs-crazy-funny-asians-live-stand-up-comedy-show-sunday-nights-tickets-783197574027
 
+- city: San Francisco
+  place: Great Star Theatre
+  datetime: 30 Apr 7pm
+  link: https://www.universe.com/events/elisha-tan-whos-that-singapores-leftover-woman-tickets-DS2XFZ
+
+- city: San Leandro
+  place: 21st Amendment Brewery
+  datetime: 2 May 7:30pm
+  link: -
+
+- city: Detroit 
+  place: Detroit Women of Comedy Festival 2024, The Planet Ant Black Box
+  datetime: 18 May 7pm 
+  link: https://www.eventbrite.com/e/detroit-women-of-comedy-festival-2024-saturday-black-box-7pm-tickets-876380596957?aff=ebdsoporgprofile
+
 - city: Minneapolis
   place: Loons on the Lake Comedy Festival, Crooners Supper Club
   datetime: 7 Jun 7pm
   link: https://www.loonsonthelake.com/event-details-registration/headliner-quinn-dahle
+
+
+
+
