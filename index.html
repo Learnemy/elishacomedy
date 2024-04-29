@@ -94,9 +94,11 @@
             {{ show.datetime }}<br />
             {{ show.place }}
           </p>
+          {% if show.link %}
           <a href="{{ show.link }}" class="ticket-button" target="_blank">
             <b class="tickets">Tickets</b>
           </a>
+          {% else %} <span class="no-ticket">No RSVP required</span> {% endif %}
         </div>
         {% endfor %}
       </div>
