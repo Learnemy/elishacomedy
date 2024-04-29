@@ -1,8 +1,3 @@
-- city: San Francisco
-  place: Don't Tell, Marina
-  datetime: 27 Apr 8pm
-  link: https://www.donttellcomedy.com/shows/san-francisco-04-27-24/
-
 - city: San Leandro
   place: 21st Amendment Brewery
   datetime: 2 May 7:30pm
@@ -13,10 +8,20 @@
   datetime: 11 May 6:00pm
   link:
 
+- city: Sunnyvale
+  place: Rooster T Feathers Comedy Club
+  datetime: 15 May 8:00pm
+  link: https://rooster-t-feathers.seatengine-sites.com/shows/255864
+
 - city: Detroit
   place: Detroit Women of Comedy Festival 2024, The Planet Ant Black Box
   datetime: 18 May 7pm
   link: https://www.eventbrite.com/e/detroit-women-of-comedy-festival-2024-saturday-black-box-7pm-tickets-876380596957?aff=ebdsoporgprofile
+
+- city: Sunnyvale
+  place: Fuego Sports Bar and Club
+  datetime: 21 May 7:00pm
+  link:
 
 - city: Minneapolis
   place: Loons on the Lake Comedy Festival, Crooners Supper Club
