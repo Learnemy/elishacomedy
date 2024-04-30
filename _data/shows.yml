@@ -3,6 +3,16 @@
   datetime: 2 May 7:30pm
   link:
 
+- city: San Francisco
+  place: Speakeasy Ales & Lagers
+  datetime: 10 May 7:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676131567
+
+- city: San Francisco
+  place: Speakeasy Ales & Lagers
+  datetime: 10 May 9:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676984117
+
 - city: Richmond
   place: Riggers Loft
   datetime: 11 May 6:00pm
@@ -22,6 +32,31 @@
   place: Fuego Sports Bar and Club
   datetime: 21 May 7:00pm
   link:
+
+- city: San Francisco
+  place: Moe Greens
+  datetime: 24 May 8:00pm
+  link: https://www.universe.com/events/the-sf-stoner-comedy-jam-friday-nights-at-8p-tickets-8P0JBR
+
+- city: San Francisco
+  place: Neck of the Woods
+  datetime: 25 May 7:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-sf-tickets-786771965127
+
+- city: San Francisco
+  place: Speakeasy Ales & Lagers
+  datetime: 31 May 7:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676161657
+
+- city: San Francisco
+  place: Speakeasy Ales & Lagers
+  datetime: 31 May 9:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789677014207
+
+- city: San Francisco
+  place: Moe Greens
+  datetime: 1 Jun 8:00pm
+  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-0FM5P1
 
 - city: Minneapolis
   place: Loons on the Lake Comedy Festival, Crooners Supper Club
