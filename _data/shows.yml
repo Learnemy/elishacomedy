@@ -1,22 +1,7 @@
-- city: San Leandro
-  place: 21st Amendment Brewery
-  datetime: 2 May 7:30pm
-  link:
-
-- city: San Francisco
-  place: Speakeasy Ales & Lagers
-  datetime: 10 May 7:00pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676131567
-
-- city: San Francisco
-  place: Speakeasy Ales & Lagers
-  datetime: 10 May 9:00pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676984117
-
-- city: Richmond
-  place: Riggers Loft
-  datetime: 11 May 6:00pm
-  link:
+- city: Oakland
+  place: Drake’s Dealership
+  datetime: 13 May 8:00pm
+  link: https://www.eventbrite.com/e/stand-up-comedy-at-drakes-dealership-in-oakland-tickets-887894214497?aff=erelexpmlt
 
 - city: Sunnyvale
   place: Rooster T Feathers Comedy Club
