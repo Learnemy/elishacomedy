@@ -1,13 +1,3 @@
-- city: San Francisco
-  place: Speakeasy Ales & Lagers
-  datetime: 31 May 7:00pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789676161657
-
-- city: San Francisco
-  place: Speakeasy Ales & Lagers
-  datetime: 31 May 9:00pm
-  link: https://www.eventbrite.com/e/crazy-funny-asians-stand-up-comedy-live-in-san-francisco-new-venue-tickets-789677014207
-
 - city: Pasadena
   place: Golden Laughs Comedy Festival, FoundrSpace Coworking
   datetime: 1 Jun 9:00pm
@@ -27,3 +17,23 @@
   place: Laugh Factory
   datetime: 9 Jun 7:00pm
   link: https://www.tixr.com/groups/laughfactorychicago/events/chicago-s-best-stand-up--105117
+
+- city: Chicago
+  place: Butch McGuire's
+  datetime: 10 Jun 9:00pm
+  link: https://www.eventbrite.com/e/jokes-on-division-stand-up-comedy-showcase-tickets-616760616607
+
+- city: Sunnyvale
+  place: Off The Rails Brewing Co. 
+  datetime: 21 Jun 7:30pm
+  link: https://www.eventbrite.com/e/sunnyvale-comedy-night-tickets-904406653647
+
+- city: San Francisco
+  place: Moe Greens 
+  datetime: 22 Jun 8:00pm
+  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-0FM5P1
+
+- city: Sacramento
+  place: Laughs Unlimited
+  datetime: 26 Jun 7:00pm
+  link: https://www.laughsunlimited.com/shows/268101
