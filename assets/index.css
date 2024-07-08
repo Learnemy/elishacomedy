@@ -314,3 +314,8 @@ h2 {
   height: 480px;
   object-fit: cover;
 }
+
+.main-show-poster {
+  width: 100%;
+  max-width: 480px;
+}
