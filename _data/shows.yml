@@ -1,54 +1,4 @@
 - city: San Francisco
-  place: Moe Greens 
-  datetime: 5 Jul 8:00pm
-  link: https://www.universe.com/events/the-sf-stoner-comedy-jam-friday-nights-at-8p-tickets-8P0JBR
-
-- city: Oakland
-  place: Drake’s Dealership
-  datetime: 8 Jul 8:00pm
-  link: https://www.eventbrite.com/e/stand-up-comedy-at-drakes-dealership-in-oakland-tickets-916809430687
-
-- city: Alameda
-  place: Alameda Comedy Club 
-  datetime: 11 Jul 7:00pm
-  link: https://www.alamedacomedy.com/events/95337
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 12 Jul 7:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 12 Jul 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: San Francisco
-  place: Moe Greens 
-  datetime: 13 Jul 8:00pm
-  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-0FM5P1
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 19 Jul 7:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: San Francisco
-  place: Moe Greens 
-  datetime: 19 Jul 8:00pm
-  link: https://www.universe.com/events/the-sf-stoner-comedy-jam-friday-nights-at-8p-tickets-8P0JBR
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 19 Jul 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: Oakland
-  place: Calabash
-  datetime: 20 Jul 9:00pm
-  link: https://www.eventbrite.com/e/comedy-oakland-at-calabash-sat-jul-20-2024-tickets-927676524457
-
-- city: San Francisco
   place: Cobb's Comedy Club
   datetime: 24 Jul 7:30pm
   link: https://www.cobbscomedy.com//EventDetail?tmeventid=G5vYZbG3Gzs_o&offerid=0
@@ -69,8 +19,82 @@
   link: https://www.facebook.com/ContraCostaComedy
 
 - city: San Francisco
-  place: Silver Cloud Restaurant & Karaoke Bar
-  datetime: 30 Jul 8:00pm
-  link: 
+  place: The Function SF
+  datetime: 30 Jul 7:00pm
+  link: https://www.eventbrite.com/e/hellakosher-comedy-night-at-sfs-newest-comedy-club-the-function-tickets-939199530077
 
+- city: San Francisco
+  place: The Function SF
+  datetime: 30 Jul 8:45pm
+  link: https://www.eventbrite.com/e/hellakosher-comedy-night-at-sfs-newest-comedy-club-the-function-tickets-939202990427
+
+- city: San Francisco
+  place: The Function SF
+  datetime: 2 Aug 7:00pm
+  link: https://www.eventbrite.com/e/rush-hour-comedy-night-w-sfs-best-black-asian-stand-up-comedians-tickets-938056240467
+
+- city: San Francisco
+  place: The Function SF
+  datetime: 2 Aug 8:45pm
+  link: https://www.eventbrite.com/e/rush-hour-comedy-night-w-sfs-best-black-asian-stand-up-comedians-tickets-938055949597
+
+- city: Sunnyvale
+  place: Rooster T Feathers Comedy Club
+  datetime: 7 Aug 8:00pm
+  link: https://rooster-t-feathers.seatengine-sites.com/shows/273056
+
+- city: Oakland
+  place: Portal
+  datetime: 8 Aug 8:00pm
+  link: https://www.eventbrite.com/e/punchlines-at-portal-free-live-comedy-tickets-878218684727
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 9 Aug 7:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-939815251717?discount=HUMAN
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 9 Aug 9:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-939819333927?discount=HUMAN
+
+- city: San Francisco
+  place: The Function SF
+  datetime: 10 Aug 7:00pm
+  link: https://www.eventbrite.com/e/rush-hour-comedy-night-w-sfs-best-black-asian-stand-up-comedians-tickets-937333027317
+
+- city: San Francisco
+  place: The Function SF
+  datetime: 10 Aug 8:45pm
+  link: https://www.eventbrite.com/e/rush-hour-comedy-night-w-sfs-best-black-asian-stand-up-comedians-tickets-937333268037
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 16 Aug 7:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-939815271777?discount=HUMAN
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 16 Aug 9:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-939819353987?discount=HUMAN
+
+- city: San Francisco
+  place: Moe Greens
+  datetime: 17 Aug 8:00pm
+  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-san-francisco-0FM5P1
+
+- city: San Jose
+  place: Island Taste Caribbean Grill
+  datetime: 23 Aug 7:30pm
+  link: https://www.eventbrite.com/e/laughsj-presents-the-proeacy-comedy-show-tickets-851721541057
+
+- city: San Francisco
+  place: Moe Greens
+  datetime: 24 Aug 8:00pm
+  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-san-francisco-0FM5P1
+
+- city: San Francisco
+  place: Cobb's Comedy Club
+  datetime: 29 Aug 7:30pm
+  link: https://www.cobbscomedy.com//EventDetail?tmeventid=G5vYZb7mWhKk-&offerid=151220
 
