@@ -1,24 +1,4 @@
 - city: San Francisco
-  place: Cobb's Comedy Club
-  datetime: 24 Jul 7:30pm
-  link: https://www.cobbscomedy.com//EventDetail?tmeventid=G5vYZbG3Gzs_o&offerid=0
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 26 Jul 7:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 26 Jul 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307?discount=HUMAN
-
-- city: Walnut Creek
-  place: Chicken Pie Shop Walnut Creek
-  datetime: 27 Jul 9:00pm
-  link: https://www.facebook.com/ContraCostaComedy
-
-- city: San Francisco
   place: The Function SF
   datetime: 30 Jul 7:00pm
   link: https://www.eventbrite.com/e/hellakosher-comedy-night-at-sfs-newest-comedy-club-the-function-tickets-939199530077
@@ -37,6 +17,11 @@
   place: The Function SF
   datetime: 2 Aug 8:45pm
   link: https://www.eventbrite.com/e/rush-hour-comedy-night-w-sfs-best-black-asian-stand-up-comedians-tickets-938055949597
+
+- city: Oakland
+  place: The Washington Inn
+  datetime: 3 Aug 8:00pm
+  link: https://www.eventbrite.com/e/comedy-oakland-at-the-washington-inn-sat-aug-3-2024-tickets-947515714007?aff=oddtdtcreator
 
 - city: Sunnyvale
   place: Rooster T Feathers Comedy Club
