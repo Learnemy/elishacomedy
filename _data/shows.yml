@@ -68,10 +68,20 @@
   datetime: 23 Aug 7:30pm
   link: https://www.eventbrite.com/e/laughsj-presents-the-proeacy-comedy-show-tickets-851721541057
 
+- city: Oakland
+  place: Drake’s Dealership
+  datetime: 26 Aug 8:00pm
+  link: https://drinkdrakes.com/event/what-the-duck-2024-08-26/#/
+
 - city: San Francisco
-  place: Moe Greens
-  datetime: 24 Aug 8:00pm
-  link: https://www.universe.com/events/puff-puff-laugh-sfs-cannabis-lounge-comedy-show-2024-tickets-san-francisco-0FM5P1
+  place: The Function SF
+  datetime: 27 Aug 7:00pm
+  link: https://www.eventbrite.com/e/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets-939199530077
+
+- city: San Francisco
+  place: The Function SF
+  datetime: 27 Aug 8:45pm
+  link: https://www.eventbrite.com/e/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets-939203030547
 
 - city: San Francisco
   place: Cobb's Comedy Club
