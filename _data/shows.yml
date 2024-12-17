@@ -1,25 +1,35 @@
-
 - city: San Francisco
-  place: Mayes Oyster House
-  datetime: 29 Nov 7:00pm / 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 6 Dec 7:00pm / 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307
-
-- city: San Francisco
-  place: The Lost Church
-  datetime: 11 Dec 8:15pm
-  link: https://thelostchurch.my.salesforce-sites.com/ticket/patronticket__publicticketapp#/instances/a0FTU00000CbLo92AF
-
-- city: San Francisco
-  place: Mayes Oyster House
-  datetime: 13 Dec 7:00pm / 9:00pm
-  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307
+  place: The Function
+  datetime: 17 Dec 7:00pm / 9:00pm
+  link: https://the-function.seatengine-sites.com/shows/295330
 
 - city: San Francisco
   place: Mayes Oyster House
   datetime: 20 Dec 7:00pm / 9:00pm
   link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307
+
+- city: Oakland
+  place: Seawolf Public House
+  datetime: 21 Dec 7:00pm 
+  link: https://www.eventbrite.com/e/comedy-oakland-at-seawolf-pub-sat-dec-21-2024-tickets-1081555173639
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 27 Dec 7:00pm / 9:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-now-with-gpt-4o-tickets-619208839307
+
+- city: Oakland
+  place: Fluid510
+  datetime: 28 Dec 7:00pm / 9:00pm
+  link: https://www.eventbrite.com/e/hella510-oakland-stand-up-comedy-nights-tickets-755034999007
+
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 30 Dec 8:00pm
+  link: 
+
+- city: Oakland
+  place: Fluid510
+  datetime: 31 Dec 7:00pm / 8:45pm
+  link: https://allevents.in/oakland/crazy-funny-asians-vs-helladesi-comedy-night-on-new-years-eve-2025/100001075830200089
+
