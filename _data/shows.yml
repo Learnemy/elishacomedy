@@ -8,15 +8,15 @@
   datetime: 21 Feb 7:00pm / 8:45pm
   link: https://the-function.seatengine-sites.com/events/94579
 
-- city: Oakland
-  place: Degrees Plato Tap Room Bottle Shop & Kitchen
-  datetime: 22 Feb 8:00pm
-  link: https://www.eventbrite.com/e/stand-up-comedy-at-degrees-plato-in-oakland-tickets-1225878548739
-
 - city: San Francisco
   place: Mayes Oyster House
   datetime: 28 Feb 7:00pm / 9:00pm
   link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-2025-tickets-1117973441659
+
+- city: San Francisco
+  place: The Function
+  datetime: 1 Mar 7:00pm / 8:45pm
+  link: https://the-function.seatengine-sites.com/events/94579
 
 - city: San Francisco
   place: Mr. Bing's
@@ -38,3 +38,7 @@
   datetime: 15 Mar 7:00pm 
   link: https://www.eventbrite.com/e/join-us-for-an-unforgettable-evening-of-laughter-and-music-tickets-1231067880169?aff=oddtdtcreator
 
+- city: San Francisco
+  place: Mayes Oyster House
+  datetime: 28 Mar 7:00pm / 9:00pm
+  link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-2025-tickets-619208839307
