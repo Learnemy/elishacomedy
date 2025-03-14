@@ -40,6 +40,11 @@
 
 - city: San Francisco
   place: The Function
+  datetime: 19 Mar 9:00pm 
+  link: https://the-function.seatengine-sites.com/shows/309214
+
+- city: San Francisco
+  place: The Function
   datetime: 21 Mar 7:00pm / 8:45pm
   link: https://the-function.seatengine-sites.com/events/94579
 
@@ -52,3 +57,13 @@
   place: Mayes Oyster House
   datetime: 28 Mar 7:00pm / 9:00pm
   link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-2025-tickets-619208839307
+
+- city: San Francisco
+  place: Barbary Coast 
+  datetime: 2 Apr 6:30pm
+  link: https://www.seahorsecomedy.com/barbary
+
+- city: San Francisco
+  place: Lion's Den
+  datetime: 3 Apr 8:00pm
+  link: https://www.eventbrite.com/e/live-comedy-lions-den-tickets-1281170678989
