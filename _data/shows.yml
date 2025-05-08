@@ -44,6 +44,16 @@
   link: https://www.eventbrite.com/e/soup-of-the-days-may-7th-show-tickets-1315227975279?aff=ebdsoporgprofile
 
 - city: Manhattan
+  place: The Comedy Shop
+  datetime: 8 May 8:00pm
+  link: https://reservations.waivermaster.com/book/?qs=a44dcec9-0cb5-4773-bf53-c734db1dc10a%7C22b1df29-287a-465b-95ad-a94a46f45e20%7C8da0dff3-c5e2-4922-a8ef-fafc6fc60b19&oqs=evd%3D2025-05-08%26evt%3D20:00&_gl=1*1rsyox3*_gcl_aw*R0NMLjE3NDY3MjY2NDQuQ2owS0NRandyUEhBQmhDSUFSSXNBRlcyWEJOM1ZXRUdFWEVpa2hqUWF6dUlWUlVsT1BVV2JRM3g0dFdhbFI3c2NUZlZxYWZmX1hIajhSWWFBZ1cxRUFMd193Y0I.*_gcl_au*MzE0NTMwNTMyLjE3NDQ3ODQ5ODk.*_ga*MTYxMTgyNjQxMi4xNzQ0Nzg0OTg5*_ga_RVSSW2PKR7*czE3NDY3MjY2NDMkbzMkZzAkdDE3NDY3MjY2NDMkajAkbDAkaDA.
+
+- city: Manhattan
+  place: The Grisly Pear Greenwich Village
+  datetime: 8 May 10:00pm
+  link: https://www.grislypearstandup.com/events/thursday-comedy-show-at-the-grisly-pear-greenwich-village
+
+- city: Manhattan
   place: The Grisly Pear Greenwich Village
   datetime: 8 May 11:59pm
   link: https://www.grislypearstandup.com/events/midnight-comedy-show-at-the-grisly-pear-greenwich-village-2025-05-08235900
@@ -58,10 +68,10 @@
   datetime: 9 May 7:30pm
   link: https://www.eventbrite.com/e/boyz-in-the-woods-comedy-tickets-330067690347
 
-- city: Manhattan
-  place: One and One
+- city: Brooklyn
+  place: Halyards
   datetime: 9 May 8:30pm
-  link: https://www.eventbrite.com/e/ug-comedy-club-back-in-the-east-village-tickets-1266670388229?aff=ebdsoporgprofile
+  link: https://www.eventbrite.com/e/bitches-brew-free-comedy-stand-up-and-variety-show-tickets-1349434397609?aff=ebdsoporgprofile
 
 - city: Manhattan
   place: The Gaf West
@@ -87,11 +97,6 @@
   place: Cafe Saint-Ex
   datetime: 15 May 7:00pm
   link: https://www.eventbrite.com/e/thursday-night-laughs-comedy-show-tickets-1123740009619?aff=ebdssbdestsearch
-
-- city: Washington, DC
-  place: Kelly's Irish Times
-  datetime: 15 May 8:00pm
-  link: https://www.eventbrite.com/e/come-make-friends-a-comedy-show-tickets-1312067612549?aff=ebdsoporgprofile
 
 - city: Washington, DC
   place: DC COMEDY CLUBHOUSE
