@@ -1,29 +1,24 @@
-# - city: San Francisco
-#   place: The Function
-#   datetime: 9 Sep 7:00pm
-#   link: https://allevents.in/san-francisco/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-tickets/80008514338143
+- city: Berkeley
+  place: Kip's
+  datetime: 14 Nov 8:00pm
+  link: https://www.eventbrite.com/e/stand-up-comedy-at-berkeleys-kips-tickets-1962841943090?aff=ebdssbcategorybrowse
 
-# - city: San Francisco
-#   place: Robin Williams Meadow 
-#   datetime: 14 Sep 2:40pm
-#   link: https://comedyday.org/
+- city: San Francisco
+  place: The Function
+  datetime: 15 Nov 7:00pm / 9:00pm
+  link: hhttps://the-function.seatengine-sites.com/events/99217
 
-# - city: San Mateo
-#   place: San Mateo County Event Center
-#   datetime: 21 Sep 4:00pm
-#   link: https://tickets.singaporefest.com/?_gl=1*1evxr6j*_ga*NTUzMzY5MDU2LjE3NTU5OTY4NDU.*_ga_GRNRKL9ZQV*czE3NTczOTM2MTckbzIkZzAkdDE3NTczOTM2MTckajYwJGwwJGgw
+- city: San Francisco
+  place: Lion's Den
+  datetime: 19 Nov 8:00pm
+  link: https://www.eventbrite.com/e/laugh-den-comedy-showcase-lions-den-tickets-1962752570775
 
-# - city: Berkeley
-#   place: International House at UC Berkeley
-#   datetime: 23 Sep 8:00pm
-#   link: https://www.eventbrite.com/e/i-house-comedy-show-tickets-1439139778819?aff=socialmedia
+- city: Santa Rosa
+  place: Balletto Vineyards
+  datetime: 22 Nov 7:00pm
+  link: https://www.crushersofcomedy.com/box-office.html
 
-# - city: San Francisco
-#   place: The Function
-#   datetime: 25 Sep 8:30pm
-#   link: https://www.eventbrite.com/e/am-i-the-ashole-standup-comedy-settling-your-disputes-tickets-1653193619619?aff=oddtdtcreator
-
-# - city: San Francisco
-#   place: Mayes Oyster House
-#   datetime: 26 Sep 7:00pm
-#   link: https://www.eventbrite.com/e/laugh-gpt-sfs-first-ai-powered-stand-up-comedy-show-2025-tickets-619208839307
+- city: San Francisco
+  place: The Function
+  datetime: 29 Nov 7:00pm / 9:00pm
+  link: hhttps://the-function.seatengine-sites.com/events/99217

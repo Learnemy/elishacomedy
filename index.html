@@ -41,7 +41,7 @@
     </div>
     <div class="cta-bar">
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform"
+        href="#cta-mailing"
         class="cta-button"
       >
         Join my <span class="ib">mailing list</span> for shows in your city!
@@ -90,20 +90,6 @@
       <div class="shows-list">
         <div class="show">
           <p>
-            <b>Elisha Tan: Work in Progress (Singapore Edition)</b><br />
-            24 Oct 2025<br />
-            Monk's Brew Club
-          </p>
-          <a href="https://www.eventbrite.com/e/elisha-tan-work-in-progress-singapore-edition-tickets-1782076100589?aff=oddtdtcreator" class="ticket-button" target="_blank">
-            <b class="tickets">Tickets</b>
-          </a>
-        </div>
-      </div>
-      <img alt="Elisha Tan: Work in Progress (Singapore Edition)" src="assets/ElishaSG2025.png" class="intro main-show-poster"/>
-
-      <div class="shows-list">
-        <div class="show">
-          <p>
             <b>“Am I the A*shole?” - Standup Comedy Settling YOUR Disputes</b><br />
             9/25; 10/30; 11/20; 12/18<br />
             The Function
@@ -131,15 +117,41 @@
         </div>
         {% endfor %}
       </div>
-      <div id="cta-short-bar">
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform"
-          class="cta-button"
-        >
-          Want me to perform in your city? <br />
-          Join <span class="ib">my mailing list</span>!
-        </a>
-      </div>
+
+
+      <section id="cta-mailing">
+        <div class="cta-mailing-content ">
+          <div class="mailing-grid ">
+
+            <!-- Left column -->
+            <div class="mailing-left">
+              <h2 class="cta-mailing-h2">Want me to perform in your city? </h2>
+              Join <span class="ib">my mailing list!</span>
+            </div>
+
+            <!-- Right column -->
+            <div class="mailing-right">
+              <div id="beacons-email-container" aria-hidden="false">
+                <!-- Beacons will inject into the container with this id -->
+                <div id="133f41d2-8bfd-427d-af50-6e54d4eb9d14"></div>
+              </div>
+
+              <!-- Beacons script (unchanged) -->
+              <script>
+                (function () {
+                  var s = document.createElement("script");
+                  var t = Math.floor(new Date().getTime() / 120000);
+                  s.type = "module";
+                  s.async = 1;
+                  s.src = `https://beacons.ai/embeds/emailForm.js?v=${t}&b=elishatan&f=133f41d2-8bfd-427d-af50-6e54d4eb9d14`;
+                  document.body.appendChild(s);
+                })();
+              </script>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <h2>Book me</h2>
       <div class="intro">
         <p>
@@ -152,16 +164,6 @@
           >.
         </p>
         <p>Looking forward to working together!</p>
-        <!-- <iframe
-          class="iframe-form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLScQ1w5cjz_rY39UIhzlY6j4HML6e_8acV3GH63KDG3tGTK_9A/viewform?embedded=true"
-          width="640"
-          height="800"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          loading="lazy"
-        ></iframe> -->
       </div>
       <h2 id="videos">Videos</h2>
     </div>
