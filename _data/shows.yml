@@ -1,24 +1,29 @@
-- city: Berkeley
-  place: Kip's
-  datetime: 14 Nov 8:00pm
-  link: https://www.eventbrite.com/e/stand-up-comedy-at-berkeleys-kips-tickets-1962841943090?aff=ebdssbcategorybrowse
+- city: Oakland
+  place: Quinn's Lighthouse
+  datetime: 1 Feb 7:00pm
+  link: https://www.eventbrite.com/e/1980170614613
 
 - city: San Francisco
-  place: The Function
-  datetime: 15 Nov 7:00pm / 9:00pm
-  link: hhttps://the-function.seatengine-sites.com/events/99217
+  place: The Lost Church
+  datetime: 7 Feb 7:00pm
+  link: https://setupcomedy.com/tickets-3/lost-church-saturday-february-7th-7pm
+
+- city: Oakland
+  place: Portal
+  datetime: 12 Feb 8:00pm
+  link: https://www.eventbrite.com/e/punchlines-at-portal-free-live-comedy-tickets-878218173197
+
+- city: Oakland
+  place: Fluid510
+  datetime: 13 Feb 7:00pm / 9:00pm
+  link: https://www.eventbrite.com/e/hella510-oakland-stand-up-comedy-nights-tickets-755034999007
 
 - city: San Francisco
-  place: Lion's Den
-  datetime: 19 Nov 8:00pm
-  link: https://www.eventbrite.com/e/laugh-den-comedy-showcase-lions-den-tickets-1962752570775
+  place: Pa'ina Restaurant & Lounge
+  datetime: 14 Feb 7:00pm / 9:00pm
+  link: 
 
-- city: Santa Rosa
-  place: Balletto Vineyards
-  datetime: 22 Nov 7:00pm
-  link: https://www.crushersofcomedy.com/box-office.html
-
-- city: San Francisco
-  place: The Function
-  datetime: 29 Nov 7:00pm / 9:00pm
-  link: hhttps://the-function.seatengine-sites.com/events/99217
+- city: Oakland
+  place: Fluid510
+  datetime: 20 Feb 7:00pm / 9:00pm
+  link: https://www.eventbrite.com/e/hella510-oakland-stand-up-comedy-nights-tickets-755034999007
