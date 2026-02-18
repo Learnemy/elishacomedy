@@ -1,12 +1,12 @@
 /* ========================================
    CANDY SHOP REDESIGN - Elisha Tan Comedy
-   EXACT MOCKUP MATCH
+   EXACT MOCKUP MATCH - HORIZONTAL FLOWING WAVES
    ======================================== */
 
 /* Color Variables - SATURATED */
 :root {
   --bubblegum-pink: #FF69B4;
-  --grape-purple: #6A1FD8;  /* More saturated purple */
+  --grape-purple: #6A1FD8;
   --lemon-yellow: #FFD700;
   --mint-turquoise: #40E0D0;
   --tangerine-orange: #FF8C42;
@@ -74,120 +74,50 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--hot-magenta);
 }
 
-/* Hero Section - EXACTLY MATCHING MOCKUP */
+/* Hero Section - HORIZONTAL FLOWING WAVES */
 .hero {
   position: relative;
   min-height: 100vh;
   padding-top: 80px;
   background: var(--cream-beige);
-  background-image: 
-    /* Left waves */
-    linear-gradient(90deg, 
-      var(--bubblegum-pink) 0%, 
-      var(--bubblegum-pink) 5%, 
-      transparent 5%, 
-      transparent 10%,
-      var(--grape-purple) 10%,
-      var(--grape-purple) 15%,
-      transparent 15%,
-      transparent 20%,
-      var(--lemon-yellow) 20%,
-      var(--lemon-yellow) 25%,
-      transparent 25%,
-      transparent 30%,
-      var(--mint-turquoise) 30%,
-      var(--mint-turquoise) 35%,
-      transparent 35%,
-      transparent 100%
-    ),
-    /* Right waves */
-    linear-gradient(270deg,
-      var(--tangerine-orange) 0%,
-      var(--tangerine-orange) 5%,
-      transparent 5%,
-      transparent 10%,
-      var(--mint-turquoise) 10%,
-      var(--mint-turquoise) 15%,
-      transparent 15%,
-      transparent 20%,
-      var(--lemon-yellow) 20%,
-      var(--lemon-yellow) 25%,
-      transparent 25%,
-      transparent 30%,
-      var(--grape-purple) 30%,
-      var(--grape-purple) 35%,
-      transparent 35%,
-      transparent 100%
-    );
-  background-size: 100% 100%;
-  background-position: left center, right center;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
-/* Add batik pattern overlay */
-.hero::before {
-  content: '';
+/* Left flowing waves */
+.hero-waves-left {
   position: absolute;
-  top: 0;
   left: 0;
-  width: 35%;
-  height: calc(100% - 120px);
-  background-image: 
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="30" cy="30" r="15" fill="rgba(255,255,255,0.1)"/><path d="M50,50 Q60,55 70,50 T90,50" stroke="rgba(255,255,255,0.15)" fill="none" stroke-width="1"/><circle cx="70" cy="70" r="10" fill="rgba(255,255,255,0.08)"/></svg>');
-  background-size: 100px 100px;
-  background-repeat: repeat;
+  top: 80px;
+  bottom: 120px;
+  width: 50%;
+  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/TzpHvRxAHtEcNUrb.png');
+  background-size: auto 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
   pointer-events: none;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    85% 15%,
-    90% 25%,
-    80% 35%,
-    85% 45%,
-    75% 55%,
-    80% 65%,
-    70% 75%,
-    75% 85%,
-    65% 95%,
-    70% 100%,
-    0 100%
-  );
+  z-index: 1;
 }
 
-.hero::after {
-  content: '';
+/* Right flowing waves */
+.hero-waves-right {
   position: absolute;
-  top: 0;
   right: 0;
-  width: 35%;
-  height: calc(100% - 120px);
-  background-image: 
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="70" cy="30" r="15" fill="rgba(255,255,255,0.1)"/><path d="M30,50 Q40,55 50,50 T70,50" stroke="rgba(255,255,255,0.15)" fill="none" stroke-width="1"/><circle cx="30" cy="70" r="10" fill="rgba(255,255,255,0.08)"/></svg>');
-  background-size: 100px 100px;
-  background-repeat: repeat;
+  top: 80px;
+  bottom: 120px;
+  width: 50%;
+  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/SFNfKHQGKmfBgPPF.png');
+  background-size: auto 100%;
+  background-position: right center;
+  background-repeat: no-repeat;
   pointer-events: none;
-  clip-path: polygon(
-    100% 0,
-    0 0,
-    15% 15%,
-    10% 25%,
-    20% 35%,
-    15% 45%,
-    25% 55%,
-    20% 65%,
-    30% 75%,
-    25% 85%,
-    35% 95%,
-    30% 100%,
-    100% 100%
-  );
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
   z-index: 10;
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 60px 20px;
 }
@@ -195,15 +125,19 @@ h1, h2, h3, h4, h5, h6 {
 .hero-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.2;
+  font-size: 64px;
+  line-height: 1.1;
   color: var(--grape-purple);
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
-.singaporean-word {
-  position: relative;
+/* Singapore Flag Circle */
+.flag-circle {
   display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   background: linear-gradient(
     to bottom,
     #EE2737 0%,
@@ -211,35 +145,47 @@ h1, h2, h3, h4, h5, h6 {
     #FFFFFF 50%,
     #FFFFFF 100%
   );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 3px var(--grape-purple);
-  text-stroke: 3px var(--grape-purple);
+  vertical-align: middle;
+  margin: 0 5px;
+  position: relative;
+  border: 3px solid var(--grape-purple);
 }
 
-.singaporean-word::before {
-  content: '☪★★★★★';
+.flag-circle::before {
+  content: '☪';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 5px;
+  left: 12px;
   font-size: 20px;
   color: white;
-  -webkit-text-stroke: 0;
-  text-stroke: 0;
-  -webkit-text-fill-color: white;
-  letter-spacing: 2px;
-  z-index: 1;
+  text-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.flag-circle::after {
+  content: '★★★★★';
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  font-size: 6px;
+  color: white;
+  letter-spacing: -1px;
+  writing-mode: vertical-rl;
+  text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.hero-photo-container {
+  position: relative;
+  display: inline-block;
 }
 
 .hero-photo {
-  width: 450px;
+  width: 500px;
   max-width: 90%;
   height: auto;
   display: block;
-  margin: 0 auto 40px;
+  margin: 0 auto;
   filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.25));
+  background: transparent;
 }
 
 .hero-cta {
@@ -254,7 +200,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   box-shadow: 0 6px 25px rgba(255, 0, 127, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-top: -60px;
+  margin-top: -80px;
+  position: relative;
+  z-index: 20;
 }
 
 .hero-cta:hover {
@@ -553,8 +501,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
   }
   
+  .hero-waves-left,
+  .hero-waves-right {
+    width: 60%;
+  }
+  
   .hero-title {
     font-size: 36px;
+  }
+  
+  .flag-circle {
+    width: 35px;
+    height: 35px;
   }
   
   .hero-photo {
@@ -564,6 +522,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero-cta {
     font-size: 16px;
     padding: 14px 35px;
+    margin-top: -60px;
   }
   
   .mailing-content {
