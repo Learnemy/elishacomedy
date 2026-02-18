@@ -1,12 +1,12 @@
 /* ========================================
    CANDY SHOP REDESIGN - Elisha Tan Comedy
-   EXACT MOCKUP MATCH - HORIZONTAL FLOWING WAVES
+   EXACT MOCKUP MATCH v7
    ======================================== */
 
-/* Color Variables - SATURATED */
+/* Color Variables */
 :root {
   --bubblegum-pink: #FF69B4;
-  --grape-purple: #6A1FD8;
+  --grape-purple: #7B3FF2;
   --lemon-yellow: #FFD700;
   --mint-turquoise: #40E0D0;
   --tangerine-orange: #FF8C42;
@@ -35,7 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* Header Navigation */
+/* =====================
+   HEADER NAVIGATION
+   ===================== */
 .header-nav {
   position: fixed;
   top: 0;
@@ -43,70 +45,81 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1000;
   background: var(--white);
-  padding: 20px 40px;
+  padding: 18px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .header-logo {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 24px;
-  color: var(--grape-purple);
+  font-size: 22px;
+  color: var(--black);
+  letter-spacing: 0.5px;
 }
 
 .header-links {
   display: flex;
-  gap: 30px;
+  gap: 8px;
+  align-items: center;
 }
 
 .header-links a {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  color: var(--grape-purple);
+  font-size: 15px;
+  color: var(--black);
   text-decoration: none;
   transition: color 0.3s;
+  padding: 0 8px;
 }
 
 .header-links a:hover {
   color: var(--hot-magenta);
 }
 
-/* Hero Section - HORIZONTAL FLOWING WAVES */
+.nav-divider {
+  color: var(--black);
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* =====================
+   HERO SECTION
+   ===================== */
 .hero {
   position: relative;
   min-height: 100vh;
-  padding-top: 80px;
+  padding-top: 60px;
   background: var(--cream-beige);
   overflow: hidden;
 }
 
-/* Left diagonal flowing waves */
+/* Left wave panel - SVG with all 5 candy colors and batik patterns */
 .hero-waves-left {
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 50%;
-  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/qJzlzjLfckHBxpUp.png');
-  background-size: cover;
+  width: 38%;
+  background-image: url('waves-left.svg');
+  background-size: auto 100%;
   background-position: left center;
   background-repeat: no-repeat;
   pointer-events: none;
   z-index: 1;
 }
 
-/* Right diagonal flowing waves */
+/* Right wave panel - SVG with all 5 candy colors and batik patterns */
 .hero-waves-right {
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
-  width: 50%;
-  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/VGWkXlzVeGmHswdi.png');
-  background-size: cover;
+  width: 38%;
+  background-image: url('waves-right.svg');
+  background-size: auto 100%;
   background-position: right center;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -117,75 +130,56 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 10;
   text-align: center;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 50px 20px 80px;
 }
 
 .hero-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 1.1;
-  color: var(--grape-purple);
-  margin-bottom: 40px;
+  font-size: 58px;
+  line-height: 1.15;
+  color: var(--dark-gray);
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
-/* Singapore Flag Circle */
+/* =====================
+   SINGAPORE FLAG CIRCLE
+   Crescent moon + 5 stars
+   ===================== */
 .flag-circle {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: linear-gradient(
-    to bottom,
-    #EE2737 0%,
-    #EE2737 50%,
-    #FFFFFF 50%,
-    #FFFFFF 100%
-  );
+  width: 52px;
+  height: 52px;
   vertical-align: middle;
-  margin: 0 5px;
+  margin: 0 2px;
   position: relative;
-  border: 3px solid var(--grape-purple);
+  top: -3px;
 }
 
-.flag-circle::before {
-  content: '☪';
-  position: absolute;
-  top: 5px;
-  left: 12px;
-  font-size: 20px;
-  color: white;
-  text-shadow: 0 0 2px rgba(0,0,0,0.3);
+.sg-flag {
+  width: 52px;
+  height: 52px;
+  display: block;
 }
 
-.flag-circle::after {
-  content: '★★★★★';
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  font-size: 6px;
-  color: white;
-  letter-spacing: -1px;
-  writing-mode: vertical-rl;
-  text-shadow: 0 0 1px rgba(0,0,0,0.3);
-}
-
+/* =====================
+   HERO PHOTO
+   ===================== */
 .hero-photo-container {
   position: relative;
   display: inline-block;
 }
 
 .hero-photo {
-  width: 500px;
-  max-width: 90%;
+  width: 420px;
+  max-width: 85vw;
   height: auto;
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.25));
-  background: transparent;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.15));
 }
 
 .hero-cta {
@@ -194,23 +188,25 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--white);
   font-family: 'Fredoka', sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  padding: 16px 45px;
+  font-size: 17px;
+  padding: 15px 40px;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 6px 25px rgba(255, 0, 127, 0.5);
+  box-shadow: 0 6px 25px rgba(255, 0, 127, 0.45);
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-top: -80px;
+  margin-top: -50px;
   position: relative;
   z-index: 20;
 }
 
 .hero-cta:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 35px rgba(255, 0, 127, 0.7);
+  box-shadow: 0 10px 35px rgba(255, 0, 127, 0.65);
 }
 
-/* Wave Dividers - FULL WIDTH */
+/* =====================
+   WAVE DIVIDERS
+   ===================== */
 .wave-divider {
   position: absolute;
   bottom: 0;
@@ -230,68 +226,73 @@ h1, h2, h3, h4, h5, h6 {
 
 .wave-hero-bottom {
   height: 120px;
+  z-index: 5;
 }
 
 .wave-hero-bottom svg {
   height: 120px;
 }
 
-/* Mailing Section */
+/* =====================
+   MAILING SECTION
+   ===================== */
 .mailing-section {
   position: relative;
   background: var(--hot-magenta);
-  padding: 100px 40px;
+  padding: 100px 40px 140px;
 }
 
 .mailing-content {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  gap: 60px;
   align-items: center;
 }
 
 .mailing-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 48px;
   color: var(--white);
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .mailing-subtitle {
   font-family: 'Fredoka', sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   color: var(--white);
 }
 
 .mailing-right {
   background: var(--white);
-  padding: 40px;
-  border-radius: 20px;
+  padding: 35px;
+  border-radius: 16px;
   border: 3px dashed var(--grape-purple);
 }
 
-/* Shows Section - MORE SATURATED PURPLE */
+/* =====================
+   SHOWS SECTION
+   ===================== */
 .shows-section {
   position: relative;
   background: var(--grape-purple);
-  padding: 100px 40px;
+  padding: 80px 40px 140px;
 }
 
 .section-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 52px;
   text-align: center;
   color: var(--white);
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .shows-list {
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -299,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 0;
+  padding: 28px 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -310,19 +311,19 @@ h1, h2, h3, h4, h5, h6 {
 .show-city {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
   color: var(--white);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .show-details {
-  font-size: 17px;
+  font-size: 16px;
   color: var(--lemon-yellow);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .show-venue {
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -331,9 +332,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--white);
   font-family: 'Fredoka', sans-serif;
   font-weight: 600;
-  font-size: 17px;
-  padding: 14px 35px;
-  border-radius: 35px;
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 30px;
   text-decoration: none;
   white-space: nowrap;
   transition: transform 0.3s;
@@ -348,11 +349,13 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
-/* Bio Section */
+/* =====================
+   BIO SECTION
+   ===================== */
 .bio-section {
   position: relative;
   background: var(--mint-turquoise);
-  padding: 100px 40px;
+  padding: 80px 40px 140px;
 }
 
 .bio-title {
@@ -360,47 +363,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bio-content {
-  max-width: 1000px;
+  max-width: 950px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 70px;
+  gap: 60px;
   align-items: center;
 }
 
 .bio-text {
-  font-size: 19px;
-  line-height: 1.9;
+  font-size: 18px;
+  line-height: 1.8;
   color: var(--dark-gray);
 }
 
 .cartoon-placeholder {
-  font-size: 140px;
+  font-size: 120px;
   text-align: center;
 }
 
-/* Book Me Section */
+/* =====================
+   BOOK ME SECTION
+   ===================== */
 .book-section {
   position: relative;
   background: linear-gradient(135deg, #FF8C82, #FFB4A8);
-  padding: 100px 40px;
+  padding: 80px 40px 140px;
   text-align: center;
 }
 
 .book-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 52px;
   color: var(--white);
   text-transform: lowercase;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .book-content {
-  max-width: 750px;
+  max-width: 700px;
   margin: 0 auto;
-  font-size: 19px;
-  line-height: 1.9;
+  font-size: 18px;
+  line-height: 1.8;
   color: var(--white);
 }
 
@@ -410,14 +415,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-content p {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
-/* Videos Section */
+/* =====================
+   VIDEOS / IG SECTION
+   ===================== */
 .videos-section {
   position: relative;
   background: var(--lemon-yellow);
-  padding: 100px 40px;
+  padding: 80px 40px 140px;
 }
 
 .videos-title {
@@ -425,47 +432,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .videos-grid {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .phone-mockup-img {
-  width: 100%;
-  max-width: 350px;
+  width: 180px;
   height: auto;
   display: block;
-  border-radius: 0;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+/* =====================
+   FOOTER
+   ===================== */
 .footer {
   background: var(--grape-purple);
-  padding: 70px 40px;
+  padding: 60px 40px;
   text-align: center;
 }
 
 .footer-title {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   color: var(--lemon-yellow);
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .footer-socials {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
 }
 
 .social-icon {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: var(--white);
   display: flex;
@@ -479,76 +487,149 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon img {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
 }
 
-/* Responsive Design */
+/* =====================
+   RESPONSIVE DESIGN
+   ===================== */
 @media (max-width: 768px) {
   .header-nav {
-    padding: 15px 20px;
+    padding: 14px 20px;
   }
   
   .header-logo {
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .header-links {
-    gap: 15px;
+    gap: 4px;
   }
   
   .header-links a {
-    font-size: 14px;
+    font-size: 13px;
+    padding: 0 4px;
+  }
+  
+  .hero {
+    min-height: auto;
+    padding-top: 56px;
   }
   
   .hero-waves-left,
   .hero-waves-right {
-    width: 60%;
+    width: 35%;
+  }
+  
+  .hero-content {
+    padding: 30px 15px 70px;
   }
   
   .hero-title {
-    font-size: 36px;
+    font-size: 32px;
   }
   
   .flag-circle {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
+    top: -2px;
+  }
+  
+  .sg-flag {
+    width: 32px;
+    height: 32px;
   }
   
   .hero-photo {
-    width: 320px;
+    width: 280px;
   }
   
   .hero-cta {
-    font-size: 16px;
-    padding: 14px 35px;
-    margin-top: -60px;
+    font-size: 14px;
+    padding: 12px 28px;
+    margin-top: -35px;
+  }
+  
+  .mailing-section {
+    padding: 70px 20px 120px;
   }
   
   .mailing-content {
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 40px;
   }
   
   .mailing-title {
-    font-size: 40px;
+    font-size: 36px;
   }
   
   .section-title {
-    font-size: 44px;
+    font-size: 38px;
+    margin-bottom: 35px;
+  }
+  
+  .shows-section,
+  .bio-section,
+  .book-section,
+  .videos-section {
+    padding: 60px 20px 120px;
   }
   
   .show-item {
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 15px;
+  }
+  
+  .show-city {
+    font-size: 18px;
   }
   
   .bio-content {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
   
   .videos-grid {
-    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .phone-mockup-img {
+    width: 140px;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 26px;
+  }
+  
+  .flag-circle {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .sg-flag {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .hero-photo {
+    width: 220px;
+  }
+  
+  .mailing-title {
+    font-size: 28px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+  }
+  
+  .phone-mockup-img {
+    width: 120px;
+    border-radius: 12px;
   }
 }
