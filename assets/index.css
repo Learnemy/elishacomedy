@@ -83,30 +83,30 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-/* Left flowing waves */
+/* Left diagonal flowing waves */
 .hero-waves-left {
   position: absolute;
   left: 0;
-  top: 80px;
-  bottom: 120px;
+  top: 0;
+  bottom: 0;
   width: 50%;
-  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/TzpHvRxAHtEcNUrb.png');
-  background-size: auto 100%;
+  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/qJzlzjLfckHBxpUp.png');
+  background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
   pointer-events: none;
   z-index: 1;
 }
 
-/* Right flowing waves */
+/* Right diagonal flowing waves */
 .hero-waves-right {
   position: absolute;
   right: 0;
-  top: 80px;
-  bottom: 120px;
+  top: 0;
+  bottom: 0;
   width: 50%;
-  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/SFNfKHQGKmfBgPPF.png');
-  background-size: auto 100%;
+  background-image: url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663348187150/VGWkXlzVeGmHswdi.png');
+  background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
   pointer-events: none;
