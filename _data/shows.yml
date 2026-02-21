@@ -10,15 +10,20 @@
 
 - city: Oakland
   place: Fluid510
-  datetime: 13 Feb 7:00pm / 9:00pm
+  datetime: 18 Feb 7:00pm / 9:00pm
   link: https://www.eventbrite.com/e/hella510-oakland-stand-up-comedy-nights-tickets-755034999007
 
 - city: San Francisco
   place: Pa'ina Restaurant & Lounge
-  datetime: 14 Feb 7:00pm / 9:00pm
+  datetime: 14 Feb 7:00pm / 6:00pm
   link: 
 
 - city: Oakland
   place: Fluid510
   datetime: 20 Feb 7:00pm / 9:00pm
   link: https://www.eventbrite.com/e/hella510-oakland-stand-up-comedy-nights-tickets-755034999007
+
+- city: Los Angeles
+  place: The Hollywood Comedy
+  datetime: 22 Feb 9:00pm
+  link: https://www.eventbrite.com/
