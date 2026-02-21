@@ -50,7 +50,7 @@ img {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 14px 24px;
   background-color: transparent;
   position: absolute;
@@ -77,7 +77,7 @@ img {
 .nav-right a {
   color: var(--color-dark);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 18px;
   transition: color 0.2s;
 }
@@ -163,11 +163,10 @@ img {
 }
 
 .hero-photo {
-  width: auto;
-  max-width: 874px;
+  width: 760px;
+  max-width: 100%;
   height: auto;
-  max-height: 946px;
-  margin-top: -10px;
+  margin-top: -46px;
   margin-bottom: -70px;
   position: relative;
   z-index: 3;
@@ -179,12 +178,15 @@ img {
   background: linear-gradient(135deg, #E8368F, #D94F9E);
   color: var(--color-white);
   text-decoration: none;
-  padding: 25px 67px;
-  font-size: 25px;
+  width: 60%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
   border-radius: 40px;
   margin-top: -60px;
+  margin-bottom: 32px;
   position: relative;
   z-index: 4;
   transition: transform 0.2s, box-shadow 0.2s;
