@@ -1,7 +1,7 @@
 /* ===== ROOT VARIABLES ===== */
 :root {
   --font-family: Manrope, sans-serif;
-  --font-size-base: 16px;
+  --font-size-base: 19.2px;
   --color-cream: #F5F0E8;
   --color-pink: #E8668B;
   --color-hot-pink: #D94F9E;
@@ -61,7 +61,7 @@ img {
 }
 
 .nav-brand {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--color-dark);
   text-decoration: none;
@@ -78,7 +78,7 @@ img {
   color: var(--color-dark);
   text-decoration: none;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   transition: color 0.2s;
 }
 
@@ -88,7 +88,7 @@ img {
 
 .nav-divider {
   color: #aaa;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 /* ===== HERO SECTION ===== */
@@ -133,7 +133,7 @@ img {
 
 .hero-headline {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(34px, 7vw, 58px);
+  font-size: clamp(41px, 8.5vw, 70px);
   font-weight: 900;
   color: #2D1B4E;
   line-height: 1.05;
@@ -164,11 +164,11 @@ img {
 
 .hero-photo {
   width: auto;
-  max-width: 624px;
+  max-width: 874px;
   height: auto;
-  max-height: 676px;
+  max-height: 946px;
   margin-top: -10px;
-  margin-bottom: -50px;
+  margin-bottom: -70px;
   position: relative;
   z-index: 3;
   filter: drop-shadow(0 8px 30px rgba(0,0,0,0.2));
@@ -179,12 +179,12 @@ img {
   background: linear-gradient(135deg, #E8368F, #D94F9E);
   color: var(--color-white);
   text-decoration: none;
-  padding: 18px 48px;
-  font-size: 18px;
+  padding: 25px 67px;
+  font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
-  border-radius: 30px;
-  margin-top: -40px;
+  border-radius: 40px;
+  margin-top: -60px;
   position: relative;
   z-index: 4;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -228,7 +228,7 @@ img {
 }
 
 .mailing-heading {
-  font-size: clamp(22px, 4.5vw, 34px);
+  font-size: clamp(26px, 5.4vw, 41px);
   font-weight: 800;
   color: var(--color-dark);
   line-height: 1.15;
@@ -237,7 +237,7 @@ img {
 }
 
 .mailing-subtext {
-  font-size: 16px;
+  font-size: 19px;
   color: var(--color-dark);
   margin: 10px 0 0;
   font-weight: 400;
@@ -283,7 +283,7 @@ img {
 }
 
 .section-title {
-  font-size: clamp(26px, 5vw, 40px);
+  font-size: clamp(31px, 6vw, 48px);
   font-weight: 800;
   text-align: center;
   margin: 0 0 20px;
@@ -311,7 +311,7 @@ img {
   border-bottom: 1px solid rgba(255,255,255,0.2);
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 17px;
   gap: 12px;
 }
 
@@ -329,13 +329,13 @@ img {
 
 .show-city {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 18px;
   margin-right: 4px;
 }
 
 .show-details {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .ticket-btn {
@@ -343,8 +343,8 @@ img {
   background-color: var(--color-hot-pink);
   color: var(--color-white);
   text-decoration: none;
-  padding: 8px 20px;
-  font-size: 13px;
+  padding: 10px 24px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
   border-radius: 4px;
@@ -398,7 +398,7 @@ img {
 .bio-text {
   color: var(--color-dark);
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .bio-text p {
@@ -422,7 +422,7 @@ img {
 }
 
 .bio-illustration img {
-  max-width: 260px;
+  max-width: 320px;
   width: 100%;
   height: auto;
 }
@@ -446,13 +446,13 @@ img {
   font-style: italic;
   text-transform: lowercase;
   color: var(--color-dark);
-  font-size: clamp(30px, 6vw, 46px);
+  font-size: clamp(36px, 7.2vw, 55px);
   background: none;
   -webkit-text-fill-color: var(--color-dark);
 }
 
 .book-content p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.7;
   max-width: 500px;
   margin: 0 auto;
@@ -539,7 +539,7 @@ img {
   color: var(--color-dark);
   font-weight: 800;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
   border-bottom: 3px solid var(--color-dark);
   padding-bottom: 2px;
@@ -584,7 +584,7 @@ img {
 }
 
 .footer-text {
-  font-size: 13px;
+  font-size: 16px;
   color: #999;
   margin: 8px 0 0;
 }
@@ -596,11 +596,11 @@ img {
   }
 
   .nav-brand {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .nav-right a {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .nav-right {
@@ -612,20 +612,20 @@ img {
   }
 
   .hero-headline {
-    font-size: clamp(28px, 8vw, 42px);
+    font-size: clamp(34px, 9.5vw, 50px);
     padding: 0 10px;
   }
 
   .hero-photo {
-    max-width: 440px;
-    max-height: 546px;
-    margin-bottom: -40px;
+    max-width: 616px;
+    max-height: 764px;
+    margin-bottom: -55px;
   }
 
   .hero-cta-button {
-    font-size: 15px;
-    padding: 14px 32px;
-    margin-top: -35px;
+    font-size: 20px;
+    padding: 20px 50px;
+    margin-top: -50px;
   }
 
   .section-wave {
@@ -639,7 +639,7 @@ img {
   }
 
   .mailing-heading {
-    font-size: 26px;
+    font-size: 31px;
   }
 
   .show-item {
@@ -658,16 +658,16 @@ img {
   }
 
   .show-city {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .show-details {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .ticket-btn {
-    padding: 6px 14px;
-    font-size: 11px;
+    padding: 8px 16px;
+    font-size: 13px;
   }
 
   .bio-grid {
@@ -685,11 +685,11 @@ img {
   }
 
   .bio-illustration img {
-    max-width: 180px;
+    max-width: 220px;
   }
 
   .bio-text {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .ig-phones {
@@ -706,35 +706,35 @@ img {
 
 @media (max-width: 480px) {
   .hero-headline {
-    font-size: 28px;
+    font-size: 34px;
   }
 
   .hero-photo {
-    max-width: 360px;
-    max-height: 468px;
-    margin-bottom: -35px;
+    max-width: 500px;
+    max-height: 650px;
+    margin-bottom: -45px;
   }
 
   .hero-cta-button {
-    font-size: 14px;
-    padding: 12px 28px;
-    margin-top: -30px;
+    font-size: 18px;
+    padding: 18px 40px;
+    margin-top: -40px;
   }
 
   .mailing-heading {
-    font-size: 22px;
-  }
-
-  .section-title {
     font-size: 26px;
   }
 
+  .section-title {
+    font-size: 31px;
+  }
+
   .show-city {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .show-details {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .phone-frame {
