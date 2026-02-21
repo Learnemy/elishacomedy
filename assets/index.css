@@ -139,15 +139,16 @@ img {
   margin: 0 0 4px;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  font-style: italic;
+  font-style: normal;
 }
 
 .sg-flag-o {
   display: inline-block;
   position: relative;
-  width: 0.68em;
-  height: 0.68em;
-  vertical-align: baseline;
+  width: 0.85em;
+  height: 0.85em;
+  vertical-align: middle;
+  margin: 0 -0.02em;
 }
 
 .sg-flag-o img {
@@ -155,17 +156,18 @@ img {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  vertical-align: baseline;
+  vertical-align: middle;
   position: relative;
-  top: 0.05em;
+  top: -0.05em;
 }
 
 .hero-photo {
   width: auto;
-  max-width: 480px;
+  max-width: 624px;
   height: auto;
-  max-height: 520px;
+  max-height: 676px;
   margin-top: -10px;
+  margin-bottom: -50px;
   position: relative;
   z-index: 3;
   filter: drop-shadow(0 8px 30px rgba(0,0,0,0.2));
@@ -176,17 +178,17 @@ img {
   background: linear-gradient(135deg, #E8368F, #D94F9E);
   color: var(--color-white);
   text-decoration: none;
-  padding: 14px 38px;
-  font-size: 17px;
+  padding: 18px 48px;
+  font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
-  border-radius: 6px;
-  margin-top: -22px;
+  border-radius: 30px;
+  margin-top: -40px;
   position: relative;
   z-index: 4;
   transition: transform 0.2s, box-shadow 0.2s;
   letter-spacing: 0.03em;
-  border: 3px solid #2D1B4E;
+  border: none;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
 }
 
@@ -614,14 +616,15 @@ img {
   }
 
   .hero-photo {
-    max-width: 340px;
-    max-height: 420px;
+    max-width: 440px;
+    max-height: 546px;
+    margin-bottom: -40px;
   }
 
   .hero-cta-button {
-    font-size: 14px;
-    padding: 12px 28px;
-    margin-top: -16px;
+    font-size: 15px;
+    padding: 14px 32px;
+    margin-top: -35px;
   }
 
   .section-wave {
@@ -706,14 +709,15 @@ img {
   }
 
   .hero-photo {
-    max-width: 280px;
-    max-height: 360px;
+    max-width: 360px;
+    max-height: 468px;
+    margin-bottom: -35px;
   }
 
   .hero-cta-button {
-    font-size: 13px;
-    padding: 10px 24px;
-    margin-top: -14px;
+    font-size: 14px;
+    padding: 12px 28px;
+    margin-top: -30px;
   }
 
   .mailing-heading {
