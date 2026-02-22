@@ -527,7 +527,6 @@ img {
 
 .book-title {
   font-style: none;
-  text-transform: lowercase;
   color: var(--color-dark);
   font-size: 48px;
   background: none;
