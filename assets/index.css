@@ -134,11 +134,11 @@ img {
 
 .hero-headline {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(41px, 8.5vw, 70px);
+  font-size: 100px;
   font-weight: 900;
   color: #2D1B4E;
   line-height: 1.05;
-  margin: 0 0 4px;
+  margin: 28px 0 4px;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   font-style: normal;
@@ -167,7 +167,7 @@ img {
   width: 760px;
   max-width: 100%;
   height: auto;
-  margin-top: -46px;
+  margin-top: -68px;
   margin-bottom: -70px;
   position: relative;
   z-index: 3;
