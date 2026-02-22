@@ -272,7 +272,7 @@ img {
   background: var(--color-white);
   border: 2px dashed var(--color-dark);
   border-radius: 12px;
-  padding: 28px 20px;
+  padding: 14px 20px 28px;
   width: 100%;
   box-sizing: border-box;
 }
