@@ -466,6 +466,7 @@ img {
 
 .bio-body {
   overflow: hidden;
+  font-size: 18px;
 }
 
 .bio-photo-float {
@@ -581,8 +582,6 @@ img {
 
 .phone-frame {
   flex-shrink: 0;
-  width: 150px;
-  height: 270px;
   border-radius: 22px;
   padding: 5px;
   overflow: hidden;
