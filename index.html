@@ -59,14 +59,9 @@
 
     <!-- MAILING LIST SECTION -->
     <section id="cta-mailing" class="mailing-section">
-      <svg class="hero-to-mailing-wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
-        <!-- Multi-color waves matching hero background -->
-        <path d="M0,20 C180,60 360,0 540,30 C720,60 900,10 1080,40 C1260,70 1350,20 1440,35 L1440,0 L0,0 Z" fill="#E8859A"/>
-        <path d="M0,35 C200,70 400,10 600,45 C800,75 1000,20 1200,50 C1350,70 1400,40 1440,50 L1440,0 L0,0 Z" fill="#F5A0B8"/>
-        <path d="M0,50 C160,20 320,70 520,40 C720,10 880,60 1080,35 C1280,10 1380,50 1440,40 L1440,0 L0,0 Z" fill="#9B59B6"/>
-        <path d="M0,60 C240,30 480,80 720,50 C960,20 1100,65 1260,45 C1380,30 1420,55 1440,55 L1440,0 L0,0 Z" fill="#EE8835"/>
-        <path d="M0,75 C200,45 400,90 640,60 C880,30 1050,75 1200,55 C1350,40 1400,65 1440,65 L1440,0 L0,0 Z" fill="#09D8CE"/>
-        <path d="M0,90 C180,60 360,100 580,75 C800,50 960,90 1140,70 C1320,50 1400,80 1440,80 L1440,0 L0,0 Z" fill="#B8CC15"/>
+      <!-- Scalloped wave divider between hero and mailing -->
+      <svg class="scalloped-wave" viewBox="0 0 1440 60" preserveAspectRatio="none">
+        <path d="M0,0 L0,30 Q60,60 120,30 Q180,0 240,30 Q300,60 360,30 Q420,0 480,30 Q540,60 600,30 Q660,0 720,30 Q780,60 840,30 Q900,0 960,30 Q1020,60 1080,30 Q1140,0 1200,30 Q1260,60 1320,30 Q1380,0 1440,30 L1440,0 Z" fill="#E8859A"/>
       </svg>
       <div class="mailing-content">
         <div class="mailing-grid">
@@ -88,6 +83,39 @@
                   s.src = `https://beacons.ai/embeds/emailForm.js?v=${t}&b=elishatan&f=133f41d2-8bfd-427d-af50-6e54d4eb9d14`;
                   document.body.appendChild(s);
                 })();
+
+                // Override Beacons embed styles after it loads
+                (function() {
+                  function overrideBeaconsStyles() {
+                    var wrapper = document.querySelector('.mailing-form-wrapper');
+                    if (!wrapper) return;
+                    var inputs = wrapper.querySelectorAll('input');
+                    if (inputs.length === 0) {
+                      setTimeout(overrideBeaconsStyles, 500);
+                      return;
+                    }
+                    var allDivs = wrapper.querySelectorAll('div');
+                    allDivs.forEach(function(el) {
+                      el.style.setProperty('width', '100%', 'important');
+                      el.style.setProperty('max-width', '100%', 'important');
+                      el.style.setProperty('margin-left', '0', 'important');
+                      el.style.setProperty('margin-right', '0', 'important');
+                    });
+                    inputs.forEach(function(el) {
+                      el.style.setProperty('width', '100%', 'important');
+                      el.style.setProperty('max-width', '100%', 'important');
+                      el.style.setProperty('box-sizing', 'border-box', 'important');
+                    });
+                    var btns = wrapper.querySelectorAll('button');
+                    btns.forEach(function(el) {
+                      el.style.setProperty('width', '100%', 'important');
+                      el.style.setProperty('max-width', '100%', 'important');
+                    });
+                  }
+                  setTimeout(overrideBeaconsStyles, 1000);
+                  setTimeout(overrideBeaconsStyles, 2000);
+                  setTimeout(overrideBeaconsStyles, 3000);
+                })();
               </script>
             </div>
           </div>
@@ -97,8 +125,9 @@
 
     <!-- CATCH ME LIVE / SHOWS SECTION -->
     <section id="shows" class="shows-section">
-      <svg class="section-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
-        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,0 L0,0 Z" fill="#783272"/>
+      <!-- Scalloped wave divider between mailing and shows -->
+      <svg class="scalloped-wave" viewBox="0 0 1440 60" preserveAspectRatio="none">
+        <path d="M0,0 L0,30 Q60,60 120,30 Q180,0 240,30 Q300,60 360,30 Q420,0 480,30 Q540,60 600,30 Q660,0 720,30 Q780,60 840,30 Q900,0 960,30 Q1020,60 1080,30 Q1140,0 1200,30 Q1260,60 1320,30 Q1380,0 1440,30 L1440,0 Z" fill="#783272"/>
       </svg>
       <div class="shows-content">
         <h2 class="section-title shows-title">CATCH ME LIVE</h2>
