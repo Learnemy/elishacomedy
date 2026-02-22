@@ -380,7 +380,7 @@ img {
 
 .shows-title {
   color: var(--color-white);
-  font-style: italic;
+  font-style: none;
   background: none;
   -webkit-text-fill-color: var(--color-white);
 }
@@ -476,7 +476,7 @@ img {
 
 .bio-title {
   color: var(--color-dark);
-  font-style: italic;
+  font-style: none;
   text-align: left;
   background: none;
   -webkit-text-fill-color: var(--color-dark);
@@ -531,7 +531,7 @@ img {
 }
 
 .book-title {
-  font-style: italic;
+  font-style: none;
   text-transform: lowercase;
   color: var(--color-dark);
   font-size: clamp(36px, 7.2vw, 55px);
@@ -570,7 +570,7 @@ img {
 
 .ig-title {
   color: var(--color-dark);
-  font-style: italic;
+  font-style: none;
   background: none;
   -webkit-text-fill-color: var(--color-dark);
 }
