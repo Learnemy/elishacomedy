@@ -102,6 +102,7 @@ img {
   justify-content: flex-start;
   overflow: hidden;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hero-bg-waves {
@@ -217,11 +218,21 @@ img {
   margin-bottom: -2px;
 }
 
+
+
+.hero-to-mailing-wave {
+  margin-top: -30px;
+  position: relative;
+  z-index: 5;
+  height: 60px;
+}
+
 /* ===== MAILING LIST SECTION ===== */
 .mailing-section {
   background-color: var(--color-pink);
   padding: 0 0 50px;
   position: relative;
+  margin-top: 0;
 }
 
 .mailing-content {
