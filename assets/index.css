@@ -202,19 +202,14 @@ img {
   background: linear-gradient(135deg, #D94F9E, #C7357E);
 }
 
-/* ===== SECTION WAVES ===== */
-.section-wave {
+/* ===== SECTION WAVE DIVIDERS ===== */
+.scalloped-divider {
   display: block;
   width: 100%;
   height: 50px;
-  margin-bottom: -2px;
-}
-
-.scalloped-wave {
-  display: block;
-  width: 100%;
-  height: 40px;
-  margin-bottom: -2px;
+  position: relative;
+  z-index: 5;
+  margin-top: -1px;
 }
 
 /* ===== MAILING LIST SECTION ===== */
@@ -699,7 +694,7 @@ img {
     margin-top: -50px;
   }
 
-  .section-wave {
+  .scalloped-divider {
     height: 35px;
   }
 
