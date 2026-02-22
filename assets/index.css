@@ -152,7 +152,8 @@ img {
   width: 0.85em;
   height: 0.85em;
   vertical-align: middle;
-  margin: 0 -0.02em;
+  margin: 0 0.01em;
+  top: -0.08em;
 }
 
 .sg-flag-o img {
@@ -160,9 +161,7 @@ img {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  vertical-align: middle;
-  position: relative;
-  top: -0.05em;
+  display: block;
 }
 
 .hero-photo {
@@ -479,6 +478,9 @@ img {
   background: none;
   -webkit-text-fill-color: var(--color-dark);
   margin-bottom: 16px;
+  font-size: clamp(36px, 7vw, 62px);
+  width: 100%;
+  line-height: 1.1;
 }
 
 .bio-text {
