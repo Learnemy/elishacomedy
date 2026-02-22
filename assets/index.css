@@ -249,7 +249,7 @@ img {
 }
 
 .mailing-heading {
-  font-size: clamp(26px, 5.4vw, 41px);
+  font-size: clamp(26px, 5.4vw, 2.8em);
   font-weight: 800;
   color: var(--color-dark);
   line-height: 1.15;
@@ -258,7 +258,7 @@ img {
 }
 
 .mailing-subtext {
-  font-size: 19px;
+  font-size: 1.4em;
   color: var(--color-dark);
   margin: 10px 0 0;
   font-weight: 400;
