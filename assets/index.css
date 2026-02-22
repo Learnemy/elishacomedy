@@ -368,7 +368,7 @@ img {
 }
 
 .section-title {
-  font-size: clamp(31px, 6vw, 48px);
+  font-size: 48px;
   font-weight: 800;
   text-align: center;
   margin: 0 0 20px;
@@ -478,7 +478,7 @@ img {
   background: none;
   -webkit-text-fill-color: var(--color-dark);
   margin-bottom: 16px;
-  font-size: clamp(36px, 7vw, 62px);
+  font-size: 48px;
   width: 100%;
   line-height: 1.1;
 }
@@ -534,7 +534,7 @@ img {
   font-style: none;
   text-transform: lowercase;
   color: var(--color-dark);
-  font-size: clamp(36px, 7.2vw, 55px);
+  font-size: 48px;
   background: none;
   -webkit-text-fill-color: var(--color-dark);
 }
