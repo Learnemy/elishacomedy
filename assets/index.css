@@ -165,10 +165,10 @@ img {
 }
 
 .hero-photo {
-  width: 760px;
+  width: 720px;
   max-width: 100%;
   height: auto;
-  margin-top: -68px;
+  margin-top: -76px;
   margin-bottom: -70px;
   position: relative;
   z-index: 3;
@@ -187,8 +187,8 @@ img {
   font-weight: 800;
   text-transform: uppercase;
   border-radius: 40px;
-  margin-top: -60px;
-  margin-bottom: 32px;
+  margin-top: -160px;
+  margin-bottom: 112px;
   position: relative;
   z-index: 4;
   transition: transform 0.2s, box-shadow 0.2s;
