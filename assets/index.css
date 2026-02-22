@@ -653,6 +653,7 @@ img {
   justify-content: center;
   padding: 8px 32px;
   gap: 28px;
+  margin-top:12px;
 }
 
 .socials a {
@@ -666,8 +667,8 @@ img {
 }
 
 .socials img {
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
   filter: brightness(0) saturate(100%);
 }
 
