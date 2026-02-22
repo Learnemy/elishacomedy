@@ -474,7 +474,7 @@ img {
 .bio-title {
   color: var(--color-dark);
   font-style: none;
-  text-align: left;
+  text-align: center;
   background: none;
   -webkit-text-fill-color: var(--color-dark);
   margin-bottom: 16px;
