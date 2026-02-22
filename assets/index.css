@@ -222,14 +222,12 @@ img {
 
 
 .hero-to-mailing-wave {
-  position: relative;
+  position: absolute;
   z-index: 1;
   height: 120px;
-  margin-top: -120px;
-  margin-bottom: -2px;
+  bottom: -2px;
+  left: calc(-50vw + 50%);
   width: 100vw;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /* ===== MAILING LIST SECTION ===== */
