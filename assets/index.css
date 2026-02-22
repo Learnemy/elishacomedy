@@ -100,7 +100,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  overflow: hidden;
+  overflow: visible;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -112,6 +112,7 @@ img {
   right: 0;
   bottom: 0;
   z-index: 0;
+  overflow: hidden;
 }
 
 .hero-bg-img {
@@ -221,10 +222,11 @@ img {
 
 
 .hero-to-mailing-wave {
-  margin-top: -30px;
   position: relative;
-  z-index: 5;
-  height: 60px;
+  z-index: 10;
+  height: 120px;
+  margin-top: -120px;
+  margin-bottom: -2px;
 }
 
 /* ===== MAILING LIST SECTION ===== */
@@ -233,6 +235,7 @@ img {
   padding: 0 0 50px;
   position: relative;
   margin-top: 0;
+  z-index: 1;
 }
 
 .mailing-content {
