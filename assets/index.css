@@ -558,7 +558,7 @@ img {
 }
 
 .ig-content {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 24px 24px 0;
 }
@@ -578,10 +578,13 @@ img {
   overflow-x: auto;
   padding: 10px 0 20px;
   -webkit-overflow-scrolling: touch;
+  width: 100%;
 }
 
 .phone-frame {
-  flex-shrink: 0;
+  flex: 1 1 0;
+  min-width: 0;
+  aspect-ratio: 9 / 16;
   border-radius: 22px;
   padding: 5px;
   overflow: hidden;
@@ -605,11 +608,12 @@ img {
   overflow: hidden;
 }
 
-.phone-1 { background: linear-gradient(135deg, #FF007F, #FF6B6B); }
-.phone-2 { background: linear-gradient(135deg, #5CC8C8, #4ECDC4); }
-.phone-3 { background: linear-gradient(135deg, #FF007F, #E8668B); }
-.phone-4 { background: linear-gradient(135deg, #5CC8C8, #45B7AA); }
-.phone-5 { background: linear-gradient(135deg, #FF007F, #FF6B6B); }
+/* Rotating colors: teal, purple, pink, coral/peach, then repeat */
+.phone-1 { background: linear-gradient(135deg, #5CC8C8, #4ECDC4); }
+.phone-2 { background: linear-gradient(135deg, #783272, #9B4DCA); }
+.phone-3 { background: linear-gradient(135deg, #E8859A, #FF6B8A); }
+.phone-4 { background: linear-gradient(135deg, #F08080, #FFB07C); }
+.phone-5 { background: linear-gradient(135deg, #5CC8C8, #4ECDC4); }
 
 .ig-link {
   text-align: center;
@@ -771,11 +775,13 @@ img {
     gap: 10px;
     justify-content: flex-start;
     padding-left: 10px;
+    overflow-x: auto;
   }
 
   .phone-frame {
-    width: 120px;
-    height: 220px;
+    flex: 0 0 auto;
+    width: 200px;
+    aspect-ratio: 9 / 16;
   }
 }
 
@@ -806,8 +812,9 @@ img {
 
 
   .phone-frame {
-    width: 100px;
-    height: 180px;
+    flex: 0 0 auto;
+    width: 170px;
+    aspect-ratio: 9 / 16;
     border-radius: 16px;
   }
 
