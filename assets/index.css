@@ -420,7 +420,7 @@ img {
 
 .show-details {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .ticket-btn {
@@ -740,13 +740,6 @@ img {
     min-width: 0;
   }
 
-  .show-city {
-    font-size: 15px;
-  }
-
-  .show-details {
-    font-size: 18px;
-  }
 
   .ticket-btn {
     padding: 8px 16px;
@@ -812,13 +805,6 @@ img {
     font-size: 31px;
   }
 
-  .show-city {
-    font-size: 14px;
-  }
-
-  .show-details {
-    font-size: 13px;
-  }
 
   .phone-frame {
     width: 100px;
