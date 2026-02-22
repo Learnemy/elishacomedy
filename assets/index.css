@@ -3,14 +3,14 @@
   --font-family: Manrope, sans-serif;
   --font-size-base: 19.2px;
   --color-cream: #F5F0E8;
-  --color-pink: #E8668B;
+  --color-pink: #E8859A;
   --color-hot-pink: #D94F9E;
-  --color-purple: #6B3FA0;
+  --color-purple: #783272;
   --color-purple-dark: #5A2D8C;
-  --color-teal: #5CC8C8;
+  --color-teal: #09D8CE;
   --color-coral: #F08080;
-  --color-yellow: #F7D060;
-  --color-orange: #F4A259;
+  --color-yellow: #B8CC15;
+  --color-orange: #EE8835;
   --color-white: #fff;
   --color-dark: #2D2D2D;
   --gap-base: 16px;
@@ -371,7 +371,7 @@ img {
 
 /* ===== BIO SECTION ===== */
 .bio-section {
-  background-color: var(--color-teal);
+  background-color: var(--color-orange);
   padding: 0 0 50px;
   position: relative;
 }
@@ -432,7 +432,7 @@ img {
 
 /* ===== BOOK ME SECTION ===== */
 .book-section {
-  background-color: var(--color-coral);
+  background-color: var(--color-teal);
   padding: 0 0 50px;
   position: relative;
 }
