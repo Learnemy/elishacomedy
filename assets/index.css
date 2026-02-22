@@ -464,11 +464,17 @@ img {
   padding: 24px 24px 0;
 }
 
-.bio-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  align-items: start;
-  gap: 24px;
+.bio-body {
+  overflow: hidden;
+}
+
+.bio-photo-float {
+  float: right;
+  width: 340px;
+  margin: 0 -20px 16px 20px;
+  shape-outside: url('../assets/elisha-halfbody-nobg.png');
+  shape-margin: 16px;
+  shape-image-threshold: 0.1;
 }
 
 .bio-title {
@@ -502,18 +508,7 @@ img {
   color: var(--color-purple);
 }
 
-.bio-illustration {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 40px;
-}
 
-.bio-illustration img {
-  max-width: 320px;
-  width: 100%;
-  height: auto;
-}
 
 /* ===== BOOK ME SECTION ===== */
 .book-section {
