@@ -573,7 +573,7 @@ img {
 .ig-phones {
   display: flex;
   gap: 14px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 10px 0 20px;
@@ -582,8 +582,7 @@ img {
 }
 
 .phone-frame {
-  flex: 1 1 0;
-  min-width: 0;
+  flex: 0 0 max(calc((100% - 56px) / 5), 280px);
   border-radius: 22px;
   padding: 5px;
   overflow: hidden;
@@ -605,6 +604,9 @@ img {
 .phone-frame iframe {
   border-radius: 18px !important;
   overflow: hidden;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
 }
 
 /* Rotating colors: teal, purple, pink, coral/peach, then repeat */
@@ -778,8 +780,7 @@ img {
   }
 
   .phone-frame {
-    flex: 0 0 auto;
-    width: 200px;
+    flex: 0 0 280px;
   }
 }
 
@@ -810,8 +811,7 @@ img {
 
 
   .phone-frame {
-    flex: 0 0 auto;
-    width: 170px;
+    flex: 0 0 280px;
     border-radius: 16px;
   }
 
