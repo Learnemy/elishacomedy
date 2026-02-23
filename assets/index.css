@@ -584,7 +584,6 @@ img {
 .phone-frame {
   flex: 1 1 0;
   min-width: 0;
-  aspect-ratio: 9 / 16;
   border-radius: 22px;
   padding: 5px;
   overflow: hidden;
@@ -781,7 +780,6 @@ img {
   .phone-frame {
     flex: 0 0 auto;
     width: 200px;
-    aspect-ratio: 9 / 16;
   }
 }
 
@@ -814,7 +812,6 @@ img {
   .phone-frame {
     flex: 0 0 auto;
     width: 170px;
-    aspect-ratio: 9 / 16;
     border-radius: 16px;
   }
 
