@@ -348,6 +348,7 @@ img {
   font-size: 17px !important;
   font-weight: 700 !important;
   cursor: pointer;
+  position: static !important;
   background: #000 !important;
   color: #fff !important;
   border: none !important;
