@@ -133,6 +133,22 @@
       </svg>
       <div class="shows-content">
         <h2 class="section-title shows-title">SHOWS</h2>
+
+        {% if site.data.featured_show.enabled %}
+        <a href="{{ site.data.featured_show.link }}" class="featured-show-card" target="_blank">
+          <div class="featured-ribbon">FEATURED</div>
+          <div class="featured-show-poster">
+            <img src="{{ site.data.featured_show.poster }}" alt="{{ site.data.featured_show.title }}" />
+          </div>
+          <div class="featured-show-info">
+            <h3 class="featured-show-title">{{ site.data.featured_show.title }}</h3>
+            <p class="featured-show-subtitle">{{ site.data.featured_show.subtitle }}</p>
+            <p class="featured-show-details">{{ site.data.featured_show.datetime }} &bull; {{ site.data.featured_show.venue }}, {{ site.data.featured_show.city }}</p>
+            <span class="featured-ticket-btn">GET TICKETS</span>
+          </div>
+        </a>
+        {% endif %}
+
         <div class="shows-list">
           {% for show in site.data.shows %}
           <div class="show-item">
