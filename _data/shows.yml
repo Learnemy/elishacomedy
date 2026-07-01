@@ -1,102 +1,50 @@
-- city: San Francisco
-  place: The Function
-  datetime: 31 May 7:00pm
-  link: https://allevents.in/san-francisco/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets/10000939199530077?ref=left-menu&_gl=1*1qvmovh*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
-
-- city: San Francisco
-  place: The Function
-  datetime: 31 May 8:30pm
-  link: https://allevents.in/san-francisco/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets/10000939199530077?ref=left-menu&_gl=1*1qvmovh*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
+- city: Oakland
+  place: Quinn's Lighthouse 
+  datetime: 2 June 8:00pm
+  link: https://www.eventbrite.com/e/comedy-oakland-at-quinns-lighthouse-thu-jul-2-2026-tickets-1990738442270?keep_tld=true
 
 - city: Oakland
   place: Golden Ratio
-  datetime: 3 June 7:30pm
-  link: https://www.eventbrite.com/e/golden-giggles-comedy-show-featuring-live-standup-and-jokes-tickets-1979497271626
-
-- city: Oakland
-  place: Golden Ratio
-  datetime: 4 June 8:00pm
+  datetime: 2 July 8:00pm
   link: https://www.eventbrite.com/e/punchlines-at-portal-free-live-comedy-tickets-878218173197
 
-- city: San Rafael
-  place: Belrose Theater
-  datetime: 5 June 8:00pm
-  link: https://www.ticketweb.com/event/auditions-for-the-50th-sf-belrose-theater-tickets/14887313
+- city: San Francisco
+  place: The Function
+  datetime: 4 July 7:00pm & 9:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-sf-tickets-162483976949
 
 - city: San Francisco
   place: The Function
-  datetime: 6 June 7:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*15ijbzy*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
+  datetime: 5 July 7:30pm
+  link: https://www.eventbrite.com/e/sfs-4th-of-july-comedy-festival-2026-tickets-1992882997693
+
+- city: San Francisco
+  place: Balboa Theatre
+  datetime: 10 July 7:00pm
+  link: https://www.balboamovies.com/calendar-of-events/am-i-the-asshole-aint-no-joke-comedy-festival-july-10
+
+- city: Saratoga
+  place: The Mountain Winery
+  datetime: 11 July 6:00pm
+  link: https://www.mountainwinery.com/concert-series/
+
+- city: San Francisco
+  place: Golden Gate Polo Fields
+  datetime: 12 July 4:00pm
+  link: https://www.eventbrite.com/e/blankets-wine-comedy-tickets-142449276621
 
 - city: San Francisco
   place: The Function
-  datetime: 6 June 9:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*15ijbzy*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
+  datetime: 25 July 7:00pm & 9:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-sf-tickets-162483976949
 
 - city: San Francisco
   place: The Function
-  datetime: 7 June 7:00pm
-  link: https://allevents.in/san-francisco/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets/10000939199530077?ref=left-menu&_gl=1*1qvmovh*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
+  datetime: 1 Aug 7:00pm & 9:00pm
+  link: https://www.eventbrite.com/e/crazy-funny-asians-live-comedy-show-sf-tickets-162483976949
 
 - city: San Francisco
-  place: The Function
-  datetime: 7 June 8:30pm
-  link: https://allevents.in/san-francisco/hayes-valley-comedy-night-at-sfs-newest-comedy-club-the-function-tickets/10000939199530077?ref=left-menu&_gl=1*1qvmovh*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
+  place: The Lost Church
+  datetime: 8 Aug 8:15pm
+  link: https://tinyurl.com/SFamItheAhole
 
-- city: San Francisco
-  place: Columbus Cafe
-  datetime: 11 June 7:30pm
-  link: https://www.eventbrite.com/e/coit-comedy-tickets-381499123147
-
-- city: San Francisco
-  place: The Function
-  datetime: 12 June 7:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*1qpfaub*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
-
-- city: San Francisco
-  place: The Function
-  datetime: 12 June 9:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*1qpfaub*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
-
-- city: San Francisco
-  place: The Function
-  datetime: 13 June 7:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*15ijbzy*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
-
-- city: San Francisco
-  place: The Function
-  datetime: 13 June 9:00pm
-  link: https://allevents.in/san-francisco/golden-gate-comedy-night-tickets/80002857950372?_gl=1*15ijbzy*_gcl_au*OTYyMTgzNjA4LjE3ODAyNjEzNTM.
-
-- city: Los Angeles 
-  place: The Activist Kitchen
-  datetime: 16 June 4:30pm
-  link: https://www.hollywoodfringe.org/projects/14101
-
-- city: Los Angeles 
-  place: The Activist Kitchen
-  datetime: 16 June 4:30pm
-  link: https://www.hollywoodfringe.org/projects/14101
-
-- city: Los Angeles
-  place: GoodPeople Coffee
-  datetime: 18 June 8:00pm
-  link: https://www.tickpick.com/organizer/event/goodpeople-comedy-night-17070069
-
-- city: Los Angeles
-  place: The Activist Kitchen
-  datetime: 19 June 8:30pm
-  link: https://www.hollywoodfringe.org/projects/14101
-
-- city: Los Angeles
-  place: The Activist Kitchen
-  datetime: 20 June 7:00pm
-  link: https://www.hollywoodfringe.org/projects/14101
-
-- city: Los Angeles
-  place: The Activist Kitchen
-  datetime: 21 June 7:00pm
-  link: https://www.hollywoodfringe.org/projects/14101
-
-
-  
