@@ -1,4 +1,19 @@
-# - city: San Francisco
-#   place: The Lost Church
-#   datetime: 11 Sep 8:15pm
-#   link: https://tinyurl.com/SFamItheAhole
+- city: Brooklyn
+  place: Freddy's Bar
+  datetime: 12 Nov 11:30pm
+  link: https://www.eventbrite.com/e/freddys-late-night-laughs-tickets-1983144489553
+
+- city: Manhattan
+  place: Broadway Comedy Club
+  datetime: 19 Nov 6:30pm
+  link: https://luma.com/Techcomedynovember
+
+- city: Brooklyn
+  place: Logan's Run
+  datetime: 10 Dec 8:00pm
+  link: https://www.eventbrite.com/e/savage-comedy-show-free-tickets-364397592007
+
+- city: Manhattan
+  place: Broadway Comedy Club
+  datetime: 11 Dec 7:00pm
+  link: https://www.broadwaycomedyclub.com/shows/2026-12-11-a-asian-stand-up-comedy-show-at-broadway-club-700-pm/
