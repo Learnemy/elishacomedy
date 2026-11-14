@@ -1,12 +1,23 @@
+
 - city: Brooklyn
-  place: Freddy's Bar
-  datetime: 12 Nov 11:30pm
-  link: https://www.eventbrite.com/e/freddys-late-night-laughs-tickets-1983144489553
+  place: McCarren Parkhouse
+  datetime: 15 Nov 7:30pm
+  link: https://www.eventbrite.com/e/lo-meintenance-comedy-free-stand-up-comedy-show-tickets-1982606724082?aff=oddtdtcreator
 
 - city: Manhattan
   place: Broadway Comedy Club
   datetime: 19 Nov 6:30pm
   link: https://luma.com/Techcomedynovember
+
+- city: Brooklyn
+  place: Freddy's Bar
+  datetime: 3 Dec 11:30pm
+  link: https://www.eventbrite.com/e/freddys-late-night-laughs-tickets-1983144489553
+
+- city: Manhattan
+  place: Broadway Comedy Club
+  datetime: 8 Dec 8:30pm
+  link: https://www.broadwaycomedyclub.com/shows/rice-and-spice-all-asian-woman-comedy-show-2/
 
 - city: Brooklyn
   place: Logan's Run
@@ -17,3 +28,28 @@
   place: Broadway Comedy Club
   datetime: 11 Dec 7:00pm
   link: https://www.broadwaycomedyclub.com/shows/2026-12-11-a-asian-stand-up-comedy-show-at-broadway-club-700-pm/
+
+- city: San Francisco 
+  place: Great American Music Hall (SF Sketchfest)
+  datetime: 22 Jan 9:30pm
+  link: https://sfsketchfest2027.sched.com/event/2daRt/ask-a-fuckboy?iframe=no
+
+- city: San Francisco 
+  place: Lost Church (SF Sketchfest)
+  datetime: 23 Jan 9:30pm
+  link: https://sfsketchfest2027.sched.com/event/2daK6/standup-showcase?iframe=no
+
+- city: San Francisco 
+  place: Cheaper Than Therapy SF
+  datetime: 24 Jan 7:45pm
+  link: https://tickets.cttcomedy.com/events/2702/stand-up-comedy/
+
+- city: San Francisco 
+  place: Punch Line San Francisco (SF Sketchfest)
+  datetime: 26 Jan 7:30pm
+  link: https://sfsketchfest2027.sched.com/event/2daIM/am-i-the-ahole-courtroom-comedy-show?iframe=no
+
+
+
+
+
