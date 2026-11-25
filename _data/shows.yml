@@ -15,9 +15,29 @@
   link: https://www.eventbrite.com/e/friday-night-comedy-late-night-stand-up-on-the-upper-east-side-tickets-2003863132572
 
 - city: Brooklyn
+  place: Young Ethel's
+  datetime: 25 Nov 7:30pm
+  link: https://www.eventbrite.com/e/we-have-fun-a-weekly-stand-up-show-tickets-208767317667
+
+- city: Manhattan
+  place: St Mark's Comedy Club
+  datetime: 27 Nov 6:30pm
+  link: https://www.stmarkscomedy.com/shows/a-true-york-comedy-experience-2026-11-27-1a1e7b0a
+
+- city: Brooklyn
+  place: Halyards
+  datetime: 1 Dec 8:00pm
+  link: https://www.instagram.com/overthinkingcomedy/
+
+- city: Brooklyn
   place: Freddy's Bar
   datetime: 3 Dec 11:30pm
   link: https://www.eventbrite.com/e/freddys-late-night-laughs-tickets-1983144489553
+
+- city: Brooklyn
+  place: Alligator Lounge
+  datetime: 6 Dec 7:00pm
+  link: https://www.instagram.com/thesundayshoww/
 
 - city: Manhattan
   place: Broadway Comedy Club
@@ -33,6 +53,11 @@
   place: Broadway Comedy Club
   datetime: 11 Dec 7:00pm
   link: https://www.broadwaycomedyclub.com/shows/2026-12-11-a-asian-stand-up-comedy-show-at-broadway-club-700-pm/
+
+- city: Manhattan
+  place: St Mark's Comedy Club
+  datetime: 19 Dec 4:30pm
+  link: https://www.stmarkscomedy.com/shows/am-i-the-asshole-comedy-show-2026-12-19-429833a3
 
 - city: San Francisco 
   place: Great American Music Hall (SF Sketchfest)
